@@ -3,11 +3,43 @@ using UnityEngine.InputSystem;
 
 public class PlayerInteract : MonoBehaviour
 {
+    private Player player;
+
     [Header("Interact Settings")]
     public float interactDistance = 1.0f;
     private IInteractable interactable = null;
 
     private void Update()
+    {
+        FindInteractableOnMousePos();
+    }
+
+    public bool HasInteractable()
+    {
+        return interactable != null;
+    }
+
+    private void HandleInteractable()
+    {
+        PlayerState currentState = player.playerStateManager.currentState.state;
+
+        if (currentState == PlayerState.IDLE || currentState == PlayerState.MOVING)
+        {
+            if(interactable.interactType == InteractType.SHIP)
+            {
+                interactable.Interact();
+            }
+        }
+        else if (currentState == PlayerState.RIDING)
+        {
+            if (interactable.interactType == InteractType.LAND)
+            {
+                interactable.Interact();
+            }
+        }
+    }
+
+    private void FindInteractableOnMousePos()
     {
         Vector2 mouseScreenPosition = Mouse.current.position.ReadValue();
 
@@ -35,9 +67,9 @@ public class PlayerInteract : MonoBehaviour
         }
     }
 
-    public bool HasInteractable()
+    public void Initialize(Player player)
     {
-        return interactable != null;
+        this.player = player;
     }
 
     private void OnEnable() { InputManager.Instance.interactAction.action.started += OnClickInteractable; }
@@ -48,6 +80,6 @@ public class PlayerInteract : MonoBehaviour
     {
         if (interactable == null) return;
 
-        interactable.Interact();
+        HandleInteractable();
     }
 }

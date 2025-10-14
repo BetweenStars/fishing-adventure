@@ -17,6 +17,7 @@ public class Player : MovableEntity
         playerMovement?.Initialize(this);
 
         playerInteract = GetComponent<PlayerInteract>();
+        playerInteract?.Initialize(this);
 
         playerStateManager = GetComponentInChildren<PlayerStateManager>();
 

@@ -367,6 +367,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb327acaacf5548aea6709cf06a03938, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerManager
+  spawnPointTransform: {fileID: 1884313120}
   playerPrefabAddress: Player_Prefab
 --- !u!4 &725894988
 Transform:
@@ -787,6 +788,7 @@ GameObject:
   - component: {fileID: 1123491998}
   - component: {fileID: 1123492000}
   - component: {fileID: 1123491999}
+  - component: {fileID: 1123492001}
   m_Layer: 7
   m_Name: Land Tilemap
   m_TagString: Untagged
@@ -1450,6 +1452,44 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!19719996 &1123492001
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123491997}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0
+  m_UseDelaunayMesh: 0
 --- !u!1 &1177177949
 GameObject:
   m_ObjectHideFlags: 0
@@ -1602,7 +1642,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainCamera
   offset: {x: 0, y: 0, z: -10}
-  smoothSpeed: 5
+  smoothSpeed: 7
 --- !u!114 &1177177956
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1656,6 +1696,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afd8f45ead3c04be7acc43abe74a8683, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WorldManager
+  spawnPointTransform: {fileID: 1954646562}
   entityParent: {fileID: 1777014038}
   shipPrefabAddress: Boat_Prefab
 --- !u!4 &1540944767

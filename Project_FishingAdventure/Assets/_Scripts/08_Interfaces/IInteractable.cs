@@ -4,7 +4,8 @@ public enum InteractType
 {
     DOOR,
     SHIP,
-    NPC
+    NPC,
+    LAND
 }
 
 public interface IInteractable
