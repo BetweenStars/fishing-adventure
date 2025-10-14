@@ -7,6 +7,9 @@ public class WorldManager : MonoBehaviour
     public static WorldManager Instance;
     public static Ship ship;
 
+    [SerializeField]
+    private Transform spawnPointTransform;
+
     [Header("Containers")]
     public Transform entityParent;
 
@@ -51,7 +54,7 @@ public class WorldManager : MonoBehaviour
 
         instantiateHandle = Addressables.InstantiateAsync(
         shipPrefabAddress,
-        new Vector2(2, 0),
+        spawnPointTransform.position,
         Quaternion.identity,
         entityParent
 );

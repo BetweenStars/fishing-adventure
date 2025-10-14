@@ -7,6 +7,9 @@ public sealed class PlayerManager : MonoBehaviour
     public static PlayerManager Instance { get; private set; }
     public static Player player { get; private set; }
 
+    [SerializeField]
+    private Transform spawnPointTransform;
+
     [Header("Addressable Settings")]
     [SerializeField]
     private string playerPrefabAddress = "Player_Prefab";
@@ -48,7 +51,7 @@ public sealed class PlayerManager : MonoBehaviour
 
         instantiateHandle = Addressables.InstantiateAsync(
             playerPrefabAddress,
-            new Vector2(0, 0),
+            spawnPointTransform.position,
             Quaternion.identity,
             WorldManager.Instance.entityParent
         );
