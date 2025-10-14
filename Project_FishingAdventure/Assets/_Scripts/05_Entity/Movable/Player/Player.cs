@@ -8,7 +8,7 @@ public class Player : MovableEntity
     public PlayerInteract playerInteract { get; private set; }
     public PlayerStateManager playerStateManager { get; private set; }
 
-    public BoxCollider2D playerCollider{ get; private set; }
+    public BoxCollider2D playerCollider { get; private set; }
 
     void Awake()
     {
@@ -28,11 +28,12 @@ public class Player : MovableEntity
     {
         playerStateManager.ChangeState(new PlayerRidingState());
 
-        playerMovement.enabled = false;
-        playerMovement.rb.bodyType = RigidbodyType2D.Kinematic;
         playerCollider.enabled = false;
+        playerMovement.rb.bodyType = RigidbodyType2D.Kinematic;
+        playerMovement.rb.constraints = RigidbodyConstraints2D.FreezePosition | RigidbodyConstraints2D.FreezeRotation;
+        playerMovement.enabled = false;
 
-        transform.position = ship.playerAnchor.transform.position;
+        SetPlayerPosition(ship.playerAnchor.transform.position);
 
         transform.parent = ship.transform;
     }
@@ -42,8 +43,16 @@ public class Player : MovableEntity
 
         playerMovement.enabled = true;
         playerMovement.rb.bodyType = RigidbodyType2D.Dynamic;
+        playerMovement.rb.constraints = RigidbodyConstraints2D.FreezeRotation;
         playerCollider.enabled = true;
 
+        SetPlayerPosition(playerInteract.interactedPos);
+
         transform.parent = WorldManager.Instance.entityParent;
+    }
+
+    public void SetPlayerPosition(Vector2 pos)
+    {
+        transform.position = pos;
     }
 }

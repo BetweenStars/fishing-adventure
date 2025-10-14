@@ -12,23 +12,23 @@ public class UI_InteractCursor : MonoBehaviour
         cursorImage = GetComponent<Image>();
         rectTransform = GetComponent<RectTransform>();
 
-        cursorImage.color = ImageUtils.GetTrasparencyColor(cursorImage, 0);
+        cursorImage.color = ImageUtils.GetTrasparencyColor(cursorImage.color, 0);
     }
 
     private void Update()
     {
         if (PlayerManager.player == null) return;
-        
+
         if (PlayerManager.player.playerInteract.HasInteractable())
         {
-            cursorImage.color = ImageUtils.GetTrasparencyColor(cursorImage, 1);
+            cursorImage.color = ImageUtils.GetTrasparencyColor(cursorImage.color, 1);
 
             Vector2 mouseScreenPosition = Mouse.current.position.ReadValue();
             rectTransform.position = mouseScreenPosition;
         }
         else
         {
-            cursorImage.color = ImageUtils.GetTrasparencyColor(cursorImage, 0);
+            cursorImage.color = ImageUtils.GetTrasparencyColor(cursorImage.color, 0);
         }
     }
 }

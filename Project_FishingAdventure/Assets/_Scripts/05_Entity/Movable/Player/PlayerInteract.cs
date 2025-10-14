@@ -8,6 +8,9 @@ public class PlayerInteract : MonoBehaviour
     [Header("Interact Settings")]
     public float interactDistance = 1.0f;
     private IInteractable interactable = null;
+    [SerializeField]
+    private LayerMask interactableLayerMask;
+    public Vector2 interactedPos { get; private set; } = Vector2.zero;
 
     private void Update()
     {
@@ -19,26 +22,6 @@ public class PlayerInteract : MonoBehaviour
         return interactable != null;
     }
 
-    private void HandleInteractable()
-    {
-        PlayerState currentState = player.playerStateManager.currentState.state;
-
-        if (currentState == PlayerState.IDLE || currentState == PlayerState.MOVING)
-        {
-            if(interactable.interactType == InteractType.SHIP)
-            {
-                interactable.Interact();
-            }
-        }
-        else if (currentState == PlayerState.RIDING)
-        {
-            if (interactable.interactType == InteractType.LAND)
-            {
-                interactable.Interact();
-            }
-        }
-    }
-
     private void FindInteractableOnMousePos()
     {
         Vector2 mouseScreenPosition = Mouse.current.position.ReadValue();
@@ -46,15 +29,15 @@ public class PlayerInteract : MonoBehaviour
         Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint(mouseScreenPosition);
         Vector2 rayOrigin = new Vector2(mouseWorldPosition.x, mouseWorldPosition.y);
 
-        RaycastHit2D hit = Physics2D.Raycast(rayOrigin, Vector2.zero);
+        Collider2D hit = Physics2D.OverlapPoint(rayOrigin, interactableLayerMask);
 
-        if (hit.collider != null)
+        if (hit != null)
         {
-            var col = hit.collider.GetComponent<IInteractable>();
+            var col = hit.GetComponentInParent<IInteractable>();
 
-            if (col != null && Vector2.Distance(hit.collider.transform.position, transform.position) <= interactDistance)
+            if (col != null && Vector2.Distance(mouseWorldPosition, transform.position) <= interactDistance)
             {
-                interactable = col;
+                interactable = GetValidInteractable(col);
             }
             else
             {
@@ -65,6 +48,28 @@ public class PlayerInteract : MonoBehaviour
         {
             interactable = null;
         }
+    }
+
+    private IInteractable GetValidInteractable(IInteractable interactable)
+    {
+        PlayerState currentState = PlayerManager.player.playerStateManager.currentState.state;
+
+        if (currentState == PlayerState.IDLE || currentState == PlayerState.MOVING)
+        {
+            if (interactable.interactType != InteractType.LAND)
+            {
+                return interactable;
+            }
+        }
+        else if (currentState == PlayerState.RIDING)
+        {
+            if (interactable.interactType != InteractType.SHIP)
+            {
+                return interactable;
+            }
+        }
+
+        return null;
     }
 
     public void Initialize(Player player)
@@ -80,6 +85,12 @@ public class PlayerInteract : MonoBehaviour
     {
         if (interactable == null) return;
 
-        HandleInteractable();
+        Vector2 mouseScreenPosition = Mouse.current.position.ReadValue();
+
+        Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint(mouseScreenPosition);
+
+        interactedPos = mouseWorldPosition;
+
+        interactable.Interact();
     }
 }

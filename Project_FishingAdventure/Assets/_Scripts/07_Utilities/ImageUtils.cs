@@ -3,9 +3,9 @@ using UnityEngine.UI;
 
 public static class ImageUtils
 {
-    public static Color GetTrasparencyColor(Image image, float transparency)
+    public static Color GetTrasparencyColor(Color color, float transparency)
     {
-        Color c = image.color;
+        Color c = color;
         c.a = transparency;
         return c;
     }
