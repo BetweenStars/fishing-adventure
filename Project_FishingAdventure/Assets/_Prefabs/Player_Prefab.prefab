@@ -104,7 +104,6 @@ GameObject:
   - component: {fileID: 5351963099288011360}
   - component: {fileID: -549598696404132340}
   - component: {fileID: 3162590715212669078}
-  - component: {fileID: 1529322616498088176}
   - component: {fileID: 67432446231236222}
   m_Layer: 6
   m_Name: Player_Prefab
@@ -227,6 +226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d945194e44684474ca20c5944f1a53d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+  rb: {fileID: 0}
   currentSpeed: 0
 --- !u!114 &3162590715212669078
 MonoBehaviour:
@@ -241,19 +241,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerInteract
   interactDistance: 4
---- !u!114 &1529322616498088176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7706960758098349424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4bbd55c293484da29c07b9d7c831552, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerShipMovement
-  currentSpeed: 0
 --- !u!114 &67432446231236222
 MonoBehaviour:
   m_ObjectHideFlags: 0

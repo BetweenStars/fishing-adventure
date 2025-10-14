@@ -5,9 +5,10 @@ public class Player : MovableEntity
     public PlayerDef_SO playerDef => movableEntityDef as PlayerDef_SO;
 
     public PlayerMovement playerMovement { get; private set; }
-    public PlayerShipMovement playerShipMovement { get; private set; }
     public PlayerInteract playerInteract { get; private set; }
     public PlayerStateManager playerStateManager { get; private set; }
+
+    public BoxCollider2D playerCollider{ get; private set; }
 
     void Awake()
     {
@@ -15,13 +16,11 @@ public class Player : MovableEntity
         playerMovement = GetComponent<PlayerMovement>();
         playerMovement?.Initialize(this);
 
-        playerShipMovement = GetComponent<PlayerShipMovement>();
-        playerShipMovement.Initialize(this);
-        playerShipMovement.enabled = false;
-
         playerInteract = GetComponent<PlayerInteract>();
 
         playerStateManager = GetComponentInChildren<PlayerStateManager>();
+
+        playerCollider = GetComponent<BoxCollider2D>();
     }
 
     public void GetOnShip(Ship ship)
@@ -29,20 +28,21 @@ public class Player : MovableEntity
         playerStateManager.ChangeState(new PlayerRidingState());
 
         playerMovement.enabled = false;
-        playerShipMovement.enabled = true;
+        playerMovement.rb.bodyType = RigidbodyType2D.Kinematic;
+        playerCollider.enabled = false;
 
         transform.position = ship.playerAnchor.transform.position;
-        ship.transform.parent = transform;
 
-        playerShipMovement.SetShip(ship);
+        transform.parent = ship.transform;
     }
-    public void GetOutShip()
+    public void GetOffShip()
     {
         playerStateManager.ChangeState(new PlayerIdleState());
 
-        playerShipMovement.InitShip();
-
         playerMovement.enabled = true;
-        playerShipMovement.enabled = false;
+        playerMovement.rb.bodyType = RigidbodyType2D.Dynamic;
+        playerCollider.enabled = true;
+
+        transform.parent = WorldManager.Instance.entityParent;
     }
 }

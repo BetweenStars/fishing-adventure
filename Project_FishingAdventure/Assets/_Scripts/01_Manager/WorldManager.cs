@@ -29,7 +29,10 @@ public class WorldManager : MonoBehaviour
                 Destroy(gameObject);
             }
         }
+    }
 
+    private void Start()
+    {
         SpawnShip();
     }
 

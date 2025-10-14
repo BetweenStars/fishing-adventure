@@ -1,12 +1,10 @@
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.UIElements;
 
-public class PlayerMovement : MonoBehaviour
+public class ShipMovement : MonoBehaviour
 {
-    private Player player;
-    public Rigidbody2D rb;
+    public Ship ship;
+    public Rigidbody2D shiprb;
 
     public float currentSpeed = 0f;
 
@@ -14,10 +12,10 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.linearVelocity = currentInputVector * currentSpeed;
+        shiprb.linearVelocity = currentInputVector * currentSpeed;
     }
 
-    private void SetInputActions()
+    private void SetInpuActions()
     {
         if (InputManager.Instance.movementAction == null)
         {
@@ -34,16 +32,16 @@ public class PlayerMovement : MonoBehaviour
         currentInputVector = context.ReadValue<Vector2>().normalized;
     }
 
-    public void Initialize(Player player)
+    public void Initialize(Ship ship)
     {
-        this.player = player;
+        this.ship = ship;
 
-        rb = GetComponent<Rigidbody2D>();
-        rb.gravityScale = 0f;
-        rb.freezeRotation = true;
+        shiprb = GetComponent<Rigidbody2D>();
+        shiprb.gravityScale = 0f;
+        shiprb.freezeRotation = true;
 
-        currentSpeed = player.playerDef.baseSpeed;
+        currentSpeed = ship.shipDef.baseSpeed;
 
-        SetInputActions();
+        SetInpuActions();
     }
 }

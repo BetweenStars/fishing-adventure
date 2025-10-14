@@ -9,8 +9,29 @@ public class Ship : MovableEntity, IInteractable
 
     public InteractType interactType => InteractType.SHIP;
 
+    public ShipMovement shipMovement { get; private set; }
+
+    private void Awake()
+    {
+        shipMovement = GetComponent<ShipMovement>();
+        shipMovement.Initialize(this);
+        shipMovement.enabled = false;
+    }
+
+    public void ActivateControl()
+    {
+        shipMovement.enabled = true;
+        shipMovement.shiprb.bodyType = RigidbodyType2D.Dynamic;
+    }
+    public void DeactivateControl()
+    {
+        shipMovement.enabled = false;
+        shipMovement.shiprb.bodyType = RigidbodyType2D.Static;
+    }
+
     public virtual void Interact()
     {
         PlayerManager.player.GetOnShip(this);
+        ActivateControl();
     }
 }
