@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6231516394885937955}
   - component: {fileID: 3093088691021335304}
   - component: {fileID: -1199296140756770668}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Boat_Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141,7 +141,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.03600204, y: -0.030858636}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -151,7 +151,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.5625, y: 0.71875}
+  m_Size: {x: 2.6939847, y: 1.1610577}
   m_EdgeRadius: 0
 --- !u!1 &5332885305962898331
 GameObject:
@@ -162,7 +162,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5868869157384584073}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Player Anchor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ Transform:
   m_GameObject: {fileID: 5332885305962898331}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.271, y: 0.122, z: 0}
+  m_LocalPosition: {x: -0.528, y: 0.441, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

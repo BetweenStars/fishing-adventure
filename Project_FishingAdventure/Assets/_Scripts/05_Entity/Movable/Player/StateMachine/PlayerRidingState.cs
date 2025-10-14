@@ -7,14 +7,10 @@ public class PlayerRidingState : BasePlayerState
     public override void EnterState()
     {
         base.EnterState();
-
-        PlayerManager.player.playerMovement.enabled = false;
     }
 
     public override void ExitState()
     {
         base.ExitState();
-
-        PlayerManager.player.playerMovement.enabled = true;
     }
 }

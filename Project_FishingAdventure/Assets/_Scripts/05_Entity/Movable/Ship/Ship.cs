@@ -1,4 +1,6 @@
+using System.Net.Http.Headers;
 using UnityEngine;
+using UnityEngine.ResourceManagement.ResourceProviders.Simulation;
 
 public class Ship : MovableEntity, IInteractable
 {
@@ -9,6 +11,6 @@ public class Ship : MovableEntity, IInteractable
 
     public virtual void Interact()
     {
-        PlayerManager.player.playerStateManager.ChangeState(new PlayerRidingState());
+        PlayerManager.player.GetOnShip(this);
     }
 }

@@ -17,6 +17,8 @@ public class UI_InteractCursor : MonoBehaviour
 
     private void Update()
     {
+        if (PlayerManager.player == null) return;
+        
         if (PlayerManager.player.playerInteract.HasInteractable())
         {
             cursorImage.color = ImageUtils.GetTrasparencyColor(cursorImage, 1);
