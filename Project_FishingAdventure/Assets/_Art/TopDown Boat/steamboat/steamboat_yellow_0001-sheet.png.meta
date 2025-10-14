@@ -1,0 +1,1365 @@
+fileFormatVersion: 2
+guid: 836e957c44803487eba1dac0b855373d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3440872500066203631
+    second: steamboat_yellow_0001-sheet_0
+  - first:
+      213: 4010374270783684812
+    second: steamboat_yellow_0001-sheet_1
+  - first:
+      213: -6552482753531477234
+    second: steamboat_yellow_0001-sheet_2
+  - first:
+      213: 679015459703270380
+    second: steamboat_yellow_0001-sheet_3
+  - first:
+      213: -8410850938576043900
+    second: steamboat_yellow_0001-sheet_4
+  - first:
+      213: -6814560108204053564
+    second: steamboat_yellow_0001-sheet_5
+  - first:
+      213: -4221903992096385232
+    second: steamboat_yellow_0001-sheet_6
+  - first:
+      213: 932388354400778598
+    second: steamboat_yellow_0001-sheet_7
+  - first:
+      213: -3300797655062825612
+    second: steamboat_yellow_0001-sheet_8
+  - first:
+      213: 2818924862182882607
+    second: steamboat_yellow_0001-sheet_9
+  - first:
+      213: 7517695184065253775
+    second: steamboat_yellow_0001-sheet_10
+  - first:
+      213: 2920754557870183116
+    second: steamboat_yellow_0001-sheet_11
+  - first:
+      213: 26212036640516711
+    second: steamboat_yellow_0001-sheet_12
+  - first:
+      213: 5355077725079343724
+    second: steamboat_yellow_0001-sheet_13
+  - first:
+      213: -8290570044573633950
+    second: steamboat_yellow_0001-sheet_14
+  - first:
+      213: -5299311258516780656
+    second: steamboat_yellow_0001-sheet_15
+  - first:
+      213: 321536687800814763
+    second: steamboat_yellow_0001-sheet_16
+  - first:
+      213: -7948872874642603798
+    second: steamboat_yellow_0001-sheet_17
+  - first:
+      213: -4379285379295486084
+    second: steamboat_yellow_0001-sheet_18
+  - first:
+      213: 2506765371042630166
+    second: steamboat_yellow_0001-sheet_19
+  - first:
+      213: -2271094340063964019
+    second: steamboat_yellow_0001-sheet_20
+  - first:
+      213: 453457773017223684
+    second: steamboat_yellow_0001-sheet_21
+  - first:
+      213: -1430762171414330798
+    second: steamboat_yellow_0001-sheet_22
+  - first:
+      213: 846658518664859954
+    second: steamboat_yellow_0001-sheet_23
+  - first:
+      213: 7272412115152376120
+    second: steamboat_yellow_0001-sheet_24
+  - first:
+      213: -36525152423335324
+    second: steamboat_yellow_0001-sheet_25
+  - first:
+      213: 806466385575865405
+    second: steamboat_yellow_0001-sheet_26
+  - first:
+      213: -3135039857621920882
+    second: steamboat_yellow_0001-sheet_27
+  - first:
+      213: 2637915900365583661
+    second: steamboat_yellow_0001-sheet_28
+  - first:
+      213: -1892790445987711096
+    second: steamboat_yellow_0001-sheet_29
+  - first:
+      213: 1955407116456293955
+    second: steamboat_yellow_0001-sheet_30
+  - first:
+      213: 615454387525111793
+    second: steamboat_yellow_0001-sheet_31
+  - first:
+      213: 7547165088199336287
+    second: steamboat_yellow_0001-sheet_32
+  - first:
+      213: 5734075763072962734
+    second: steamboat_yellow_0001-sheet_33
+  - first:
+      213: 1047471784626364249
+    second: steamboat_yellow_0001-sheet_34
+  - first:
+      213: 6299631766637487113
+    second: steamboat_yellow_0001-sheet_35
+  - first:
+      213: -7889595893677195065
+    second: steamboat_yellow_0001-sheet_36
+  - first:
+      213: -7679265505638291078
+    second: steamboat_yellow_0001-sheet_37
+  - first:
+      213: 1443883777687951780
+    second: steamboat_yellow_0001-sheet_38
+  - first:
+      213: 3236380642127582110
+    second: steamboat_yellow_0001-sheet_39
+  - first:
+      213: -8097541791047985963
+    second: steamboat_yellow_0001-sheet_40
+  - first:
+      213: -9067444311586162386
+    second: steamboat_yellow_0001-sheet_41
+  - first:
+      213: 2736439710101644533
+    second: steamboat_yellow_0001-sheet_42
+  - first:
+      213: 1102505849910603952
+    second: steamboat_yellow_0001-sheet_43
+  - first:
+      213: 3398724650015287451
+    second: steamboat_yellow_0001-sheet_44
+  - first:
+      213: 9017539993482863189
+    second: steamboat_yellow_0001-sheet_45
+  - first:
+      213: 5305217005050256980
+    second: steamboat_yellow_0001-sheet_46
+  - first:
+      213: 4674777313067969223
+    second: steamboat_yellow_0001-sheet_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 794
+        width: 44
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 118c42411b09f30d0800000000000000
+      internalID: -3440872500066203631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 794
+        width: 48
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc08d62c626b7a730800000000000000
+      internalID: 4010374270783684812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 795
+        width: 55
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0302e6f6a7e015a0800000000000000
+      internalID: -6552482753531477234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 795
+        width: 65
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cebac9886f85c6900800000000000000
+      internalID: 679015459703270380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 796
+        width: 73
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4800a6b42a7a64b80800000000000000
+      internalID: -8410850938576043900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 797
+        width: 82
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb23f9cfa1dd61a0800000000000000
+      internalID: -6814560108204053564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 799
+        width: 88
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0379a4310b8c865c0800000000000000
+      internalID: -4221903992096385232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 673
+        width: 93
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 669f4c0b44280fc00800000000000000
+      internalID: 932388354400778598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 675
+        width: 96
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475b98665063132d0800000000000000
+      internalID: -3300797655062825612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 678
+        width: 99
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2d7de21a35de1720800000000000000
+      internalID: 2818924862182882607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 681
+        width: 101
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f81dfdf70f7345860800000000000000
+      internalID: 7517695184065253775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_11
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 682
+        width: 102
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc294f9abca988820800000000000000
+      internalID: 2920754557870183116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_12
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 679
+        width: 101
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a2ccc55bf1d5000800000000000000
+      internalID: 26212036640516711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_13
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 677
+        width: 100
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6216fb81de015a40800000000000000
+      internalID: 5355077725079343724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 545
+        width: 98
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262b1b3487af1fc80800000000000000
+      internalID: -8290570044573633950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 542
+        width: 95
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09901e1cc701576b0800000000000000
+      internalID: -5299311258516780656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_16
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 539
+        width: 90
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac8f9af9e3567400800000000000000
+      internalID: 321536687800814763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_17
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 536
+        width: 85
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae080364c3eefa190800000000000000
+      internalID: -7948872874642603798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_18
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 534
+        width: 78
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7fd7056627a933c0800000000000000
+      internalID: -4379285379295486084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_19
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 532
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a0f34d2d1d9c220800000000000000
+      internalID: 2506765371042630166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_20
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 530
+        width: 63
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8456110bb37b70e0800000000000000
+      internalID: -2271094340063964019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_21
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 401
+        width: 54
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402d45921710b4600800000000000000
+      internalID: 453457773017223684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_22
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 400
+        width: 47
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25248c6b269e42ce0800000000000000
+      internalID: -1430762171414330798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_23
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 400
+        width: 44
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 231d31bdf6fefbb00800000000000000
+      internalID: 846658518664859954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_24
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 400
+        width: 47
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83197efa94ccce460800000000000000
+      internalID: 7272412115152376120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_25
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 401
+        width: 54
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46aa070419c3e7ff0800000000000000
+      internalID: -36525152423335324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_26
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 402
+        width: 63
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3cea83a7e4213b00800000000000000
+      internalID: 806466385575865405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_27
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 404
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8311c11cd91e74d0800000000000000
+      internalID: -3135039857621920882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_28
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 278
+        width: 78
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2535acf882cb9420800000000000000
+      internalID: 2637915900365583661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_29
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 280
+        width: 85
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88736a82e157bb5e0800000000000000
+      internalID: -1892790445987711096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_30
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 283
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 346f5a78960032b10800000000000000
+      internalID: 1955407116456293955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_31
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 286
+        width: 95
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ffc3ef21888a8800800000000000000
+      internalID: 615454387525111793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_32
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 289
+        width: 98
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51e95f39aaecb860800000000000000
+      internalID: 7547165088199336287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_33
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 293
+        width: 100
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea0142da687839f40800000000000000
+      internalID: 5734075763072962734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_34
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 295
+        width: 101
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f16e2d90e598e00800000000000000
+      internalID: 1047471784626364249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_35
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 170
+        width: 102
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 904a13207b9cc6750800000000000000
+      internalID: 6299631766637487113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_36
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 169
+        width: 101
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c08df7e556828290800000000000000
+      internalID: -7889595893677195065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_37
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 167
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79e48885b4cd6590800000000000000
+      internalID: -7679265505638291078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_38
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 164
+        width: 98
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a91a0255a4b90410800000000000000
+      internalID: 1443883777687951780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_39
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 162
+        width: 96
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9317f30c0fe9ec20800000000000000
+      internalID: 3236380642127582110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_40
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 160
+        width: 92
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d454b6c4a0cf9f80800000000000000
+      internalID: -8097541791047985963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_41
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 159
+        width: 87
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e293543a077f92280800000000000000
+      internalID: -9067444311586162386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_42
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 29
+        width: 82
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4a1e50b69c9f520800000000000000
+      internalID: 2736439710101644533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_43
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 28
+        width: 75
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b036baaa33ec4f00800000000000000
+      internalID: 1102505849910603952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_44
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 28
+        width: 68
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b98668ddf02ba2f20800000000000000
+      internalID: 3398724650015287451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_45
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 27
+        width: 61
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552ac6bd8dcb42d70800000000000000
+      internalID: 9017539993482863189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_46
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 27
+        width: 53
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ed16202caef9940800000000000000
+      internalID: 5305217005050256980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_yellow_0001-sheet_47
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 26
+        width: 46
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7caa87db23520e040800000000000000
+      internalID: 4674777313067969223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      steamboat_yellow_0001-sheet_0: -3440872500066203631
+      steamboat_yellow_0001-sheet_1: 4010374270783684812
+      steamboat_yellow_0001-sheet_10: 7517695184065253775
+      steamboat_yellow_0001-sheet_11: 2920754557870183116
+      steamboat_yellow_0001-sheet_12: 26212036640516711
+      steamboat_yellow_0001-sheet_13: 5355077725079343724
+      steamboat_yellow_0001-sheet_14: -8290570044573633950
+      steamboat_yellow_0001-sheet_15: -5299311258516780656
+      steamboat_yellow_0001-sheet_16: 321536687800814763
+      steamboat_yellow_0001-sheet_17: -7948872874642603798
+      steamboat_yellow_0001-sheet_18: -4379285379295486084
+      steamboat_yellow_0001-sheet_19: 2506765371042630166
+      steamboat_yellow_0001-sheet_2: -6552482753531477234
+      steamboat_yellow_0001-sheet_20: -2271094340063964019
+      steamboat_yellow_0001-sheet_21: 453457773017223684
+      steamboat_yellow_0001-sheet_22: -1430762171414330798
+      steamboat_yellow_0001-sheet_23: 846658518664859954
+      steamboat_yellow_0001-sheet_24: 7272412115152376120
+      steamboat_yellow_0001-sheet_25: -36525152423335324
+      steamboat_yellow_0001-sheet_26: 806466385575865405
+      steamboat_yellow_0001-sheet_27: -3135039857621920882
+      steamboat_yellow_0001-sheet_28: 2637915900365583661
+      steamboat_yellow_0001-sheet_29: -1892790445987711096
+      steamboat_yellow_0001-sheet_3: 679015459703270380
+      steamboat_yellow_0001-sheet_30: 1955407116456293955
+      steamboat_yellow_0001-sheet_31: 615454387525111793
+      steamboat_yellow_0001-sheet_32: 7547165088199336287
+      steamboat_yellow_0001-sheet_33: 5734075763072962734
+      steamboat_yellow_0001-sheet_34: 1047471784626364249
+      steamboat_yellow_0001-sheet_35: 6299631766637487113
+      steamboat_yellow_0001-sheet_36: -7889595893677195065
+      steamboat_yellow_0001-sheet_37: -7679265505638291078
+      steamboat_yellow_0001-sheet_38: 1443883777687951780
+      steamboat_yellow_0001-sheet_39: 3236380642127582110
+      steamboat_yellow_0001-sheet_4: -8410850938576043900
+      steamboat_yellow_0001-sheet_40: -8097541791047985963
+      steamboat_yellow_0001-sheet_41: -9067444311586162386
+      steamboat_yellow_0001-sheet_42: 2736439710101644533
+      steamboat_yellow_0001-sheet_43: 1102505849910603952
+      steamboat_yellow_0001-sheet_44: 3398724650015287451
+      steamboat_yellow_0001-sheet_45: 9017539993482863189
+      steamboat_yellow_0001-sheet_46: 5305217005050256980
+      steamboat_yellow_0001-sheet_47: 4674777313067969223
+      steamboat_yellow_0001-sheet_5: -6814560108204053564
+      steamboat_yellow_0001-sheet_6: -4221903992096385232
+      steamboat_yellow_0001-sheet_7: 932388354400778598
+      steamboat_yellow_0001-sheet_8: -3300797655062825612
+      steamboat_yellow_0001-sheet_9: 2818924862182882607
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

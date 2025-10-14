@@ -1,0 +1,1365 @@
+fileFormatVersion: 2
+guid: 5cbe23d6686c34e88b559de9416ae518
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6182996340543104042
+    second: kayak_purple_0001-sheet_0
+  - first:
+      213: -3541447404366188641
+    second: kayak_purple_0001-sheet_1
+  - first:
+      213: 6926625190220073415
+    second: kayak_purple_0001-sheet_2
+  - first:
+      213: -4885698917489557671
+    second: kayak_purple_0001-sheet_3
+  - first:
+      213: -7002235835590239065
+    second: kayak_purple_0001-sheet_4
+  - first:
+      213: 8487238335991293102
+    second: kayak_purple_0001-sheet_5
+  - first:
+      213: 8062672926393942528
+    second: kayak_purple_0001-sheet_6
+  - first:
+      213: 4939556406139402516
+    second: kayak_purple_0001-sheet_7
+  - first:
+      213: -8584551079668297042
+    second: kayak_purple_0001-sheet_8
+  - first:
+      213: -3209736088897980088
+    second: kayak_purple_0001-sheet_9
+  - first:
+      213: -1052672951748593978
+    second: kayak_purple_0001-sheet_10
+  - first:
+      213: -6217318965154282309
+    second: kayak_purple_0001-sheet_11
+  - first:
+      213: 6027396905307671694
+    second: kayak_purple_0001-sheet_12
+  - first:
+      213: 83825089190386201
+    second: kayak_purple_0001-sheet_13
+  - first:
+      213: -4815880252659903898
+    second: kayak_purple_0001-sheet_14
+  - first:
+      213: -5534498694572799361
+    second: kayak_purple_0001-sheet_15
+  - first:
+      213: 814116439722285389
+    second: kayak_purple_0001-sheet_16
+  - first:
+      213: 2166968169817573832
+    second: kayak_purple_0001-sheet_17
+  - first:
+      213: 4883844088318203168
+    second: kayak_purple_0001-sheet_18
+  - first:
+      213: -361330421047098481
+    second: kayak_purple_0001-sheet_19
+  - first:
+      213: 4809200049603316780
+    second: kayak_purple_0001-sheet_20
+  - first:
+      213: -2849952142970725015
+    second: kayak_purple_0001-sheet_21
+  - first:
+      213: 8637789328320768449
+    second: kayak_purple_0001-sheet_22
+  - first:
+      213: 1078715755295122640
+    second: kayak_purple_0001-sheet_23
+  - first:
+      213: 4404513007132687845
+    second: kayak_purple_0001-sheet_24
+  - first:
+      213: -8578997657485738436
+    second: kayak_purple_0001-sheet_25
+  - first:
+      213: 4174534086307171080
+    second: kayak_purple_0001-sheet_26
+  - first:
+      213: 4833219619252722695
+    second: kayak_purple_0001-sheet_27
+  - first:
+      213: 7915172026690243407
+    second: kayak_purple_0001-sheet_28
+  - first:
+      213: -160290215469053618
+    second: kayak_purple_0001-sheet_29
+  - first:
+      213: -2820511760225538408
+    second: kayak_purple_0001-sheet_30
+  - first:
+      213: -5831966649738422739
+    second: kayak_purple_0001-sheet_31
+  - first:
+      213: -2820756920671959465
+    second: kayak_purple_0001-sheet_32
+  - first:
+      213: -3241859794953714571
+    second: kayak_purple_0001-sheet_33
+  - first:
+      213: 750033791612287822
+    second: kayak_purple_0001-sheet_34
+  - first:
+      213: -1528996862679841108
+    second: kayak_purple_0001-sheet_35
+  - first:
+      213: 7357164235347000233
+    second: kayak_purple_0001-sheet_36
+  - first:
+      213: -7810463613881580841
+    second: kayak_purple_0001-sheet_37
+  - first:
+      213: 1044268556030389797
+    second: kayak_purple_0001-sheet_38
+  - first:
+      213: -8321979925907306806
+    second: kayak_purple_0001-sheet_39
+  - first:
+      213: -5963839565095801444
+    second: kayak_purple_0001-sheet_40
+  - first:
+      213: -5536669604639798216
+    second: kayak_purple_0001-sheet_41
+  - first:
+      213: 3451740984826091948
+    second: kayak_purple_0001-sheet_42
+  - first:
+      213: -1103743668672934320
+    second: kayak_purple_0001-sheet_43
+  - first:
+      213: -8750912984692967306
+    second: kayak_purple_0001-sheet_44
+  - first:
+      213: -612786100032352372
+    second: kayak_purple_0001-sheet_45
+  - first:
+      213: -9194262410400123535
+    second: kayak_purple_0001-sheet_46
+  - first:
+      213: -1902366900666341315
+    second: kayak_purple_0001-sheet_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 387
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db53625695913aa0800000000000000
+      internalID: -6182996340543104042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 387
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f260069504adec0800000000000000
+      internalID: -3541447404366188641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 387
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9075369e0502060800000000000000
+      internalID: 6926625190220073415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 388
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f368758b2823cb0800000000000000
+      internalID: -4885698917489557671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 389
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac12226b9f03de90800000000000000
+      internalID: -7002235835590239065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 390
+        width: 48
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4a6dc9c4ab8c570800000000000000
+      internalID: 8487238335991293102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 392
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 002ced50f4e54ef60800000000000000
+      internalID: 8062672926393942528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 330
+        width: 50
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 419b1f76164dc8440800000000000000
+      internalID: 4939556406139402516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 331
+        width: 53
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2dc24a64c8dd880800000000000000
+      internalID: -8584551079668297042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 333
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849fb76780ab473d0800000000000000
+      internalID: -3209736088897980088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 331
+        width: 57
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6fc5617872461f0800000000000000
+      internalID: -1052672951748593978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_11
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 330
+        width: 57
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb40eaa8755a7b9a0800000000000000
+      internalID: -6217318965154282309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_12
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 329
+        width: 57
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c07250d8d95a350800000000000000
+      internalID: 6027396905307671694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_13
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 328
+        width: 56
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a5578797ec92100800000000000000
+      internalID: 83825089190386201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 264
+        width: 54
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66253630d6e8a2db0800000000000000
+      internalID: -4815880252659903898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 264
+        width: 52
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a0024a2c28133b0800000000000000
+      internalID: -5534498694572799361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_16
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 263
+        width: 48
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49d37ba6925c4b00800000000000000
+      internalID: 814116439722285389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_17
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 262
+        width: 44
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c90e81c11e921e10800000000000000
+      internalID: 2166968169817573832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_18
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 260
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02519969256e6c340800000000000000
+      internalID: 4883844088318203168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_19
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 259
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8302fe75eb4cfaf0800000000000000
+      internalID: -361330421047098481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_20
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 258
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c856207f5bdb240800000000000000
+      internalID: 4809200049603316780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_21
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 194
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ddd5b20afe278d0800000000000000
+      internalID: -2849952142970725015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_22
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 193
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9283f01a79fd770800000000000000
+      internalID: 8637789328320768449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_23
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 193
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4abff934e58fe00800000000000000
+      internalID: 1078715755295122640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_24
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 193
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed3bbe6e39ff1d30800000000000000
+      internalID: 4404513007132687845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_25
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 194
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e77a0851741f880800000000000000
+      internalID: -8578997657485738436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_26
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 194
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b491542aceee930800000000000000
+      internalID: 4174534086307171080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_27
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 195
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70cd10fd2ab031340800000000000000
+      internalID: 4833219619252722695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_28
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 132
+        width: 46
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b0bfa950758dd60800000000000000
+      internalID: 7915172026690243407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_29
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 134
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e490ff5f5e886cdf0800000000000000
+      internalID: -160290215469053618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_30
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 135
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ee1fe6f778bd8d0800000000000000
+      internalID: -2820511760225538408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_31
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 137
+        width: 52
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d269a6c2b31b01fa0800000000000000
+      internalID: -5831966649738422739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_32
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 139
+        width: 54
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7568f919688aad8d0800000000000000
+      internalID: -2820756920671959465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_33
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 140
+        width: 56
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574c92e41b99203d0800000000000000
+      internalID: -3241859794953714571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_34
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 139
+        width: 57
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4bf69672c7a86a00800000000000000
+      internalID: 750033791612287822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_35
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 74
+        width: 57
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca608415479e7cae0800000000000000
+      internalID: -1528996862679841108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_36
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 73
+        width: 57
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9abf01264e5e91660800000000000000
+      internalID: 7357164235347000233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_37
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 72
+        width: 56
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d2897b89b8ab9390800000000000000
+      internalID: -7810463613881580841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_38
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 72
+        width: 54
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e2d4c08bcfd7e00800000000000000
+      internalID: 1044268556030389797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_39
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 72
+        width: 52
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac60d506953628c80800000000000000
+      internalID: -8321979925907306806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_40
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 72
+        width: 50
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d6b09638f2c3da0800000000000000
+      internalID: -5963839565095801444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_41
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 72
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c0eb0445cc923b0800000000000000
+      internalID: -5536669604639798216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_42
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 6
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca95739332c07ef20800000000000000
+      internalID: 3451740984826091948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_43
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 5
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ec9a13bf6bea0f0800000000000000
+      internalID: -1103743668672934320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_44
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 4
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678b50731038e8680800000000000000
+      internalID: -8750912984692967306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_45
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 4
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8f4648e942fe77f0800000000000000
+      internalID: -612786100032352372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_46
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 3
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 175bf501d0b676080800000000000000
+      internalID: -9194262410400123535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kayak_purple_0001-sheet_47
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 3
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38625d026f6995e0800000000000000
+      internalID: -1902366900666341315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      kayak_purple_0001-sheet_0: -6182996340543104042
+      kayak_purple_0001-sheet_1: -3541447404366188641
+      kayak_purple_0001-sheet_10: -1052672951748593978
+      kayak_purple_0001-sheet_11: -6217318965154282309
+      kayak_purple_0001-sheet_12: 6027396905307671694
+      kayak_purple_0001-sheet_13: 83825089190386201
+      kayak_purple_0001-sheet_14: -4815880252659903898
+      kayak_purple_0001-sheet_15: -5534498694572799361
+      kayak_purple_0001-sheet_16: 814116439722285389
+      kayak_purple_0001-sheet_17: 2166968169817573832
+      kayak_purple_0001-sheet_18: 4883844088318203168
+      kayak_purple_0001-sheet_19: -361330421047098481
+      kayak_purple_0001-sheet_2: 6926625190220073415
+      kayak_purple_0001-sheet_20: 4809200049603316780
+      kayak_purple_0001-sheet_21: -2849952142970725015
+      kayak_purple_0001-sheet_22: 8637789328320768449
+      kayak_purple_0001-sheet_23: 1078715755295122640
+      kayak_purple_0001-sheet_24: 4404513007132687845
+      kayak_purple_0001-sheet_25: -8578997657485738436
+      kayak_purple_0001-sheet_26: 4174534086307171080
+      kayak_purple_0001-sheet_27: 4833219619252722695
+      kayak_purple_0001-sheet_28: 7915172026690243407
+      kayak_purple_0001-sheet_29: -160290215469053618
+      kayak_purple_0001-sheet_3: -4885698917489557671
+      kayak_purple_0001-sheet_30: -2820511760225538408
+      kayak_purple_0001-sheet_31: -5831966649738422739
+      kayak_purple_0001-sheet_32: -2820756920671959465
+      kayak_purple_0001-sheet_33: -3241859794953714571
+      kayak_purple_0001-sheet_34: 750033791612287822
+      kayak_purple_0001-sheet_35: -1528996862679841108
+      kayak_purple_0001-sheet_36: 7357164235347000233
+      kayak_purple_0001-sheet_37: -7810463613881580841
+      kayak_purple_0001-sheet_38: 1044268556030389797
+      kayak_purple_0001-sheet_39: -8321979925907306806
+      kayak_purple_0001-sheet_4: -7002235835590239065
+      kayak_purple_0001-sheet_40: -5963839565095801444
+      kayak_purple_0001-sheet_41: -5536669604639798216
+      kayak_purple_0001-sheet_42: 3451740984826091948
+      kayak_purple_0001-sheet_43: -1103743668672934320
+      kayak_purple_0001-sheet_44: -8750912984692967306
+      kayak_purple_0001-sheet_45: -612786100032352372
+      kayak_purple_0001-sheet_46: -9194262410400123535
+      kayak_purple_0001-sheet_47: -1902366900666341315
+      kayak_purple_0001-sheet_5: 8487238335991293102
+      kayak_purple_0001-sheet_6: 8062672926393942528
+      kayak_purple_0001-sheet_7: 4939556406139402516
+      kayak_purple_0001-sheet_8: -8584551079668297042
+      kayak_purple_0001-sheet_9: -3209736088897980088
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

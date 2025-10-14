@@ -1,0 +1,1365 @@
+fileFormatVersion: 2
+guid: 100aa9aad8ef34fe7a1cccd75a5e4622
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5158455692042388893
+    second: sailboat_purple_0001-sheet_0
+  - first:
+      213: 792270866420994265
+    second: sailboat_purple_0001-sheet_1
+  - first:
+      213: -1227361836356374279
+    second: sailboat_purple_0001-sheet_2
+  - first:
+      213: -5120218658065262485
+    second: sailboat_purple_0001-sheet_3
+  - first:
+      213: -5907886178319843815
+    second: sailboat_purple_0001-sheet_4
+  - first:
+      213: -3906632465220472666
+    second: sailboat_purple_0001-sheet_5
+  - first:
+      213: -5162797506122459668
+    second: sailboat_purple_0001-sheet_6
+  - first:
+      213: 4386089486996864135
+    second: sailboat_purple_0001-sheet_7
+  - first:
+      213: 8471614016960610609
+    second: sailboat_purple_0001-sheet_8
+  - first:
+      213: 1045183071667091191
+    second: sailboat_purple_0001-sheet_9
+  - first:
+      213: 2856401154405967990
+    second: sailboat_purple_0001-sheet_10
+  - first:
+      213: 8362906254305683037
+    second: sailboat_purple_0001-sheet_11
+  - first:
+      213: 6169080006164499820
+    second: sailboat_purple_0001-sheet_12
+  - first:
+      213: 6261351793118879513
+    second: sailboat_purple_0001-sheet_13
+  - first:
+      213: -1148222064672102263
+    second: sailboat_purple_0001-sheet_14
+  - first:
+      213: -1084790781771820889
+    second: sailboat_purple_0001-sheet_15
+  - first:
+      213: -4896668358836144944
+    second: sailboat_purple_0001-sheet_16
+  - first:
+      213: 8408967085395572451
+    second: sailboat_purple_0001-sheet_17
+  - first:
+      213: -2837912371356108070
+    second: sailboat_purple_0001-sheet_18
+  - first:
+      213: 619452455225302015
+    second: sailboat_purple_0001-sheet_19
+  - first:
+      213: 7580255309243878709
+    second: sailboat_purple_0001-sheet_20
+  - first:
+      213: 3582552248851782512
+    second: sailboat_purple_0001-sheet_21
+  - first:
+      213: -4239265991777045770
+    second: sailboat_purple_0001-sheet_22
+  - first:
+      213: -364764761132141980
+    second: sailboat_purple_0001-sheet_23
+  - first:
+      213: 1301030137778989400
+    second: sailboat_purple_0001-sheet_24
+  - first:
+      213: 4799837944344554363
+    second: sailboat_purple_0001-sheet_25
+  - first:
+      213: -753580170489807095
+    second: sailboat_purple_0001-sheet_26
+  - first:
+      213: -6510531763429184000
+    second: sailboat_purple_0001-sheet_27
+  - first:
+      213: 687914596651477228
+    second: sailboat_purple_0001-sheet_28
+  - first:
+      213: 4247860908084454723
+    second: sailboat_purple_0001-sheet_29
+  - first:
+      213: 850090848329352467
+    second: sailboat_purple_0001-sheet_30
+  - first:
+      213: -3334128735492186861
+    second: sailboat_purple_0001-sheet_31
+  - first:
+      213: 5312070708077881956
+    second: sailboat_purple_0001-sheet_32
+  - first:
+      213: 5629124359124453230
+    second: sailboat_purple_0001-sheet_33
+  - first:
+      213: 5763848341806833779
+    second: sailboat_purple_0001-sheet_34
+  - first:
+      213: 660880629450711086
+    second: sailboat_purple_0001-sheet_35
+  - first:
+      213: 3607480673897389694
+    second: sailboat_purple_0001-sheet_36
+  - first:
+      213: -6320450509413786581
+    second: sailboat_purple_0001-sheet_37
+  - first:
+      213: -8882855173146616857
+    second: sailboat_purple_0001-sheet_38
+  - first:
+      213: -4446216131903675824
+    second: sailboat_purple_0001-sheet_39
+  - first:
+      213: -7439153490052152893
+    second: sailboat_purple_0001-sheet_40
+  - first:
+      213: 2868747318658476314
+    second: sailboat_purple_0001-sheet_41
+  - first:
+      213: -4062257412550322608
+    second: sailboat_purple_0001-sheet_42
+  - first:
+      213: 4977088032027268229
+    second: sailboat_purple_0001-sheet_43
+  - first:
+      213: 8637839202273158322
+    second: sailboat_purple_0001-sheet_44
+  - first:
+      213: -4139608813364729752
+    second: sailboat_purple_0001-sheet_45
+  - first:
+      213: 7541183629276721596
+    second: sailboat_purple_0001-sheet_46
+  - first:
+      213: -1535817676132201684
+    second: sailboat_purple_0001-sheet_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 798
+        width: 32
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ab836f0eb7968b0800000000000000
+      internalID: -5158455692042388893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 798
+        width: 35
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d01ae6c726befa00800000000000000
+      internalID: 792270866420994265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 798
+        width: 42
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f07b15a9e887fee0800000000000000
+      internalID: -1227361836356374279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 799
+        width: 49
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6851b1324451f8b0800000000000000
+      internalID: -5120218658065262485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 800
+        width: 56
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e3ec772d8f20ea0800000000000000
+      internalID: -5907886178319843815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 801
+        width: 60
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a0768a987ad8c9c0800000000000000
+      internalID: -3906632465220472666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 802
+        width: 64
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce55c48950f0a58b0800000000000000
+      internalID: -5162797506122459668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 675
+        width: 67
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78cf58166258edc30800000000000000
+      internalID: 4386089486996864135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 676
+        width: 70
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 131482b5018319570800000000000000
+      internalID: 8471614016960610609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 678
+        width: 74
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6f7ff477c318e00800000000000000
+      internalID: 1045183071667091191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 680
+        width: 76
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678226057b9f3a720800000000000000
+      internalID: 2856401154405967990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_11
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 682
+        width: 77
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5668c10ee20f0470800000000000000
+      internalID: 8362906254305683037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_12
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 684
+        width: 76
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d46669499fc9550800000000000000
+      internalID: 6169080006164499820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_13
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 684
+        width: 75
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f1b92284ac4e650800000000000000
+      internalID: 6261351793118879513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 554
+        width: 73
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98824ff9d12b010f0800000000000000
+      internalID: -1148222064672102263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 551
+        width: 70
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a05fdc088c02f0f0800000000000000
+      internalID: -1084790781771820889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_16
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 548
+        width: 68
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d43da0421a8b0cb0800000000000000
+      internalID: -4896668358836144944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_17
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 547
+        width: 64
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e674f4f207a2b470800000000000000
+      internalID: 8408967085395572451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_18
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 546
+        width: 62
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adaf1a1fbb5bd98d0800000000000000
+      internalID: -2837912371356108070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_19
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 545
+        width: 58
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffb92fcd9bcb89800800000000000000
+      internalID: 619452455225302015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_20
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 544
+        width: 56
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d0046ba0a723960800000000000000
+      internalID: 7580255309243878709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_21
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 415
+        width: 49
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b56160a48c7b130800000000000000
+      internalID: 3582552248851782512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_22
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 414
+        width: 42
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f23cb38a0a1b25c0800000000000000
+      internalID: -4239265991777045770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_23
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 413
+        width: 35
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4627322e16810faf0800000000000000
+      internalID: -364764761132141980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_24
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 413
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 859e46464003e0210800000000000000
+      internalID: 1301030137778989400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_25
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 413
+        width: 35
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b29140e237c9240800000000000000
+      internalID: 4799837944344554363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_26
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 414
+        width: 42
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f3d2cd3deba85f0800000000000000
+      internalID: -753580170489807095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_27
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 415
+        width: 49
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ee7edfad1f5a5a0800000000000000
+      internalID: -6510531763429184000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_28
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 288
+        width: 57
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8a7315ea6fb8900800000000000000
+      internalID: 687914596651477228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_29
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 289
+        width: 60
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34564a16dfe63fa30800000000000000
+      internalID: 4247860908084454723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_30
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 290
+        width: 64
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3154b716f112ccb00800000000000000
+      internalID: 850090848329352467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_31
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 291
+        width: 67
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31dd09d749bcab1d0800000000000000
+      internalID: -3334128735492186861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_32
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 292
+        width: 71
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a6db81a2448b940800000000000000
+      internalID: 5312070708077881956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_33
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 295
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e678c1eb7caae1e40800000000000000
+      internalID: 5629124359124453230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_34
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 298
+        width: 76
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 370ee98578d4dff40800000000000000
+      internalID: 5763848341806833779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_35
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 172
+        width: 77
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e20a8555e6beb2900800000000000000
+      internalID: 660880629450711086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_36
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 172
+        width: 76
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e9db54f88501230800000000000000
+      internalID: 3607480673897389694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_37
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 170
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c54f5bfbf3948a0800000000000000
+      internalID: -6320450509413786581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_38
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 168
+        width: 73
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ebda5d8842c9b480800000000000000
+      internalID: -8882855173146616857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_39
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 166
+        width: 70
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052254f2cfddb42c0800000000000000
+      internalID: -4446216131903675824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_40
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 164
+        width: 67
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c185dba051d2c890800000000000000
+      internalID: -7439153490052152893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_41
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 163
+        width: 64
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a192efeac76dfc720800000000000000
+      internalID: 2868747318658476314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_42
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 34
+        width: 62
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0569db2f766ff97c0800000000000000
+      internalID: -4062257412550322608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_43
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 33
+        width: 58
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58455d4023b221540800000000000000
+      internalID: 4977088032027268229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_44
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 32
+        width: 55
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b46f6e3df4cfd770800000000000000
+      internalID: 8637839202273158322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_45
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 31
+        width: 49
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 868a15287b72d86c0800000000000000
+      internalID: -4139608813364729752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_46
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 30
+        width: 42
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb1b7015e8aa7a860800000000000000
+      internalID: 7541183629276721596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sailboat_purple_0001-sheet_47
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 30
+        width: 35
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2bcf5ee5fdafaae0800000000000000
+      internalID: -1535817676132201684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sailboat_purple_0001-sheet_0: -5158455692042388893
+      sailboat_purple_0001-sheet_1: 792270866420994265
+      sailboat_purple_0001-sheet_10: 2856401154405967990
+      sailboat_purple_0001-sheet_11: 8362906254305683037
+      sailboat_purple_0001-sheet_12: 6169080006164499820
+      sailboat_purple_0001-sheet_13: 6261351793118879513
+      sailboat_purple_0001-sheet_14: -1148222064672102263
+      sailboat_purple_0001-sheet_15: -1084790781771820889
+      sailboat_purple_0001-sheet_16: -4896668358836144944
+      sailboat_purple_0001-sheet_17: 8408967085395572451
+      sailboat_purple_0001-sheet_18: -2837912371356108070
+      sailboat_purple_0001-sheet_19: 619452455225302015
+      sailboat_purple_0001-sheet_2: -1227361836356374279
+      sailboat_purple_0001-sheet_20: 7580255309243878709
+      sailboat_purple_0001-sheet_21: 3582552248851782512
+      sailboat_purple_0001-sheet_22: -4239265991777045770
+      sailboat_purple_0001-sheet_23: -364764761132141980
+      sailboat_purple_0001-sheet_24: 1301030137778989400
+      sailboat_purple_0001-sheet_25: 4799837944344554363
+      sailboat_purple_0001-sheet_26: -753580170489807095
+      sailboat_purple_0001-sheet_27: -6510531763429184000
+      sailboat_purple_0001-sheet_28: 687914596651477228
+      sailboat_purple_0001-sheet_29: 4247860908084454723
+      sailboat_purple_0001-sheet_3: -5120218658065262485
+      sailboat_purple_0001-sheet_30: 850090848329352467
+      sailboat_purple_0001-sheet_31: -3334128735492186861
+      sailboat_purple_0001-sheet_32: 5312070708077881956
+      sailboat_purple_0001-sheet_33: 5629124359124453230
+      sailboat_purple_0001-sheet_34: 5763848341806833779
+      sailboat_purple_0001-sheet_35: 660880629450711086
+      sailboat_purple_0001-sheet_36: 3607480673897389694
+      sailboat_purple_0001-sheet_37: -6320450509413786581
+      sailboat_purple_0001-sheet_38: -8882855173146616857
+      sailboat_purple_0001-sheet_39: -4446216131903675824
+      sailboat_purple_0001-sheet_4: -5907886178319843815
+      sailboat_purple_0001-sheet_40: -7439153490052152893
+      sailboat_purple_0001-sheet_41: 2868747318658476314
+      sailboat_purple_0001-sheet_42: -4062257412550322608
+      sailboat_purple_0001-sheet_43: 4977088032027268229
+      sailboat_purple_0001-sheet_44: 8637839202273158322
+      sailboat_purple_0001-sheet_45: -4139608813364729752
+      sailboat_purple_0001-sheet_46: 7541183629276721596
+      sailboat_purple_0001-sheet_47: -1535817676132201684
+      sailboat_purple_0001-sheet_5: -3906632465220472666
+      sailboat_purple_0001-sheet_6: -5162797506122459668
+      sailboat_purple_0001-sheet_7: 4386089486996864135
+      sailboat_purple_0001-sheet_8: 8471614016960610609
+      sailboat_purple_0001-sheet_9: 1045183071667091191
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

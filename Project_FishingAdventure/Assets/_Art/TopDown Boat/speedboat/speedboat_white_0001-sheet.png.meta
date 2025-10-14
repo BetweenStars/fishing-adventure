@@ -1,0 +1,1365 @@
+fileFormatVersion: 2
+guid: 2d8df135f915a47989b5c8ab04f8ee89
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1326320452386805929
+    second: speedboat_white_0001-sheet_0
+  - first:
+      213: 8566752328265388245
+    second: speedboat_white_0001-sheet_1
+  - first:
+      213: -5641843075373768641
+    second: speedboat_white_0001-sheet_2
+  - first:
+      213: -258632085345826341
+    second: speedboat_white_0001-sheet_3
+  - first:
+      213: 2072027092043538897
+    second: speedboat_white_0001-sheet_4
+  - first:
+      213: -7458767684856170260
+    second: speedboat_white_0001-sheet_5
+  - first:
+      213: -6442420789361197644
+    second: speedboat_white_0001-sheet_6
+  - first:
+      213: -3713646688961882073
+    second: speedboat_white_0001-sheet_7
+  - first:
+      213: 8033622539906151567
+    second: speedboat_white_0001-sheet_8
+  - first:
+      213: -3286669785972146221
+    second: speedboat_white_0001-sheet_9
+  - first:
+      213: -4710274775219121732
+    second: speedboat_white_0001-sheet_10
+  - first:
+      213: -6334769090685550097
+    second: speedboat_white_0001-sheet_11
+  - first:
+      213: 9169804157452527717
+    second: speedboat_white_0001-sheet_12
+  - first:
+      213: -3279771838020643886
+    second: speedboat_white_0001-sheet_13
+  - first:
+      213: -2549849862441776010
+    second: speedboat_white_0001-sheet_14
+  - first:
+      213: -6732973645022243271
+    second: speedboat_white_0001-sheet_15
+  - first:
+      213: -9153383896436994578
+    second: speedboat_white_0001-sheet_16
+  - first:
+      213: 2050854448775408050
+    second: speedboat_white_0001-sheet_17
+  - first:
+      213: -3023253175813656548
+    second: speedboat_white_0001-sheet_18
+  - first:
+      213: -7177839737706767257
+    second: speedboat_white_0001-sheet_19
+  - first:
+      213: 8965890647838074941
+    second: speedboat_white_0001-sheet_20
+  - first:
+      213: 5719502873768851837
+    second: speedboat_white_0001-sheet_21
+  - first:
+      213: 2737932550791385287
+    second: speedboat_white_0001-sheet_22
+  - first:
+      213: 974275599902859836
+    second: speedboat_white_0001-sheet_23
+  - first:
+      213: 7569022354381089328
+    second: speedboat_white_0001-sheet_24
+  - first:
+      213: -8702334389751376996
+    second: speedboat_white_0001-sheet_25
+  - first:
+      213: 5434803514404357624
+    second: speedboat_white_0001-sheet_26
+  - first:
+      213: 3602324317676998290
+    second: speedboat_white_0001-sheet_27
+  - first:
+      213: 5249317123955589090
+    second: speedboat_white_0001-sheet_28
+  - first:
+      213: 8935509929749737665
+    second: speedboat_white_0001-sheet_29
+  - first:
+      213: -5081077083643354254
+    second: speedboat_white_0001-sheet_30
+  - first:
+      213: -1487211591697955642
+    second: speedboat_white_0001-sheet_31
+  - first:
+      213: 5791488827171255803
+    second: speedboat_white_0001-sheet_32
+  - first:
+      213: -7693993152018464019
+    second: speedboat_white_0001-sheet_33
+  - first:
+      213: -8532772629400807713
+    second: speedboat_white_0001-sheet_34
+  - first:
+      213: 1397371168563108768
+    second: speedboat_white_0001-sheet_35
+  - first:
+      213: -1895858759502930733
+    second: speedboat_white_0001-sheet_36
+  - first:
+      213: 4337367750738907678
+    second: speedboat_white_0001-sheet_37
+  - first:
+      213: 8773431680103799566
+    second: speedboat_white_0001-sheet_38
+  - first:
+      213: -2740518984309741424
+    second: speedboat_white_0001-sheet_39
+  - first:
+      213: -724373929168193209
+    second: speedboat_white_0001-sheet_40
+  - first:
+      213: 1946867712771978925
+    second: speedboat_white_0001-sheet_41
+  - first:
+      213: 6182124668818336921
+    second: speedboat_white_0001-sheet_42
+  - first:
+      213: -6466516265146786958
+    second: speedboat_white_0001-sheet_43
+  - first:
+      213: 735038565326163717
+    second: speedboat_white_0001-sheet_44
+  - first:
+      213: -2892047197913859597
+    second: speedboat_white_0001-sheet_45
+  - first:
+      213: 4460758429968838381
+    second: speedboat_white_0001-sheet_46
+  - first:
+      213: -4125858459942613809
+    second: speedboat_white_0001-sheet_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 384
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8d9de9c69086210800000000000000
+      internalID: 1326320452386805929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 383
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d0520d9ad733e670800000000000000
+      internalID: 8566752328265388245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 384
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3069dd5d9524b1b0800000000000000
+      internalID: -5641843075373768641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 385
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd981791d77296cf0800000000000000
+      internalID: -258632085345826341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 387
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1ad3289a151cc10800000000000000
+      internalID: 2072027092043538897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 388
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce83cf11f422d7890800000000000000
+      internalID: -7458767684856170260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 389
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bdb88cec6ce796a0800000000000000
+      internalID: -6442420789361197644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 326
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7281f1b130a767cc0800000000000000
+      internalID: -3713646688961882073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 327
+        width: 53
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f847da6d2292d7f60800000000000000
+      internalID: 8033622539906151567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 328
+        width: 56
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dffe114e376362d0800000000000000
+      internalID: -3286669785972146221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 330
+        width: 59
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb1d49c4c0eb1aeb0800000000000000
+      internalID: -4710274775219121732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 332
+        width: 61
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1409733116618a0800000000000000
+      internalID: -6334769090685550097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 334
+        width: 60
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568abd82c40b14f70800000000000000
+      internalID: 9169804157452527717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_13
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 334
+        width: 61
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d3137ae3e8eb72d0800000000000000
+      internalID: -3279771838020643886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 269
+        width: 59
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c449e4f0d1d9cd0800000000000000
+      internalID: -2549849862441776010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 268
+        width: 56
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936d166842caf82a0800000000000000
+      internalID: -6732973645022243271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_16
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 267
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed8718c7d5a8f080800000000000000
+      internalID: -9153383896436994578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_17
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 266
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b9a9495149167c10800000000000000
+      internalID: 2050854448775408050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_18
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 265
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c103e85214f3b06d0800000000000000
+      internalID: -3023253175813656548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_19
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 264
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76c1e43d9c0336c90800000000000000
+      internalID: -7177839737706767257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_20
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 263
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38a2677a0e3d6c70800000000000000
+      internalID: 8965890647838074941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_21
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 198
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7971da7f81cf5f40800000000000000
+      internalID: 5719502873768851837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_22
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 197
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c056e416271ff520800000000000000
+      internalID: 2737932550791385287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_23
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 197
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c326a850f72558d00800000000000000
+      internalID: 974275599902859836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_24
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 197
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a20e99ab19a0960800000000000000
+      internalID: 7569022354381089328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_25
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 197
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c93143ebaf81b3780800000000000000
+      internalID: -8702334389751376996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_26
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 197
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f5cd14600d4c6b40800000000000000
+      internalID: 5434803514404357624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_27
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 198
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e83e881e60ef130800000000000000
+      internalID: 3602324317676998290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_28
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 135
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef7fb6bc1259d840800000000000000
+      internalID: 5249317123955589090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_29
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 136
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c075b150fe410c70800000000000000
+      internalID: 8935509929749737665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_30
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 137
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2736f0920536c79b0800000000000000
+      internalID: -5081077083643354254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_31
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 138
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c4000bdfec5c5be0800000000000000
+      internalID: -1487211591697955642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_32
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 139
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf5bf2857608f5050800000000000000
+      internalID: 5791488827171255803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_33
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 140
+        width: 56
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de2c6a52ef1793590800000000000000
+      internalID: -7693993152018464019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_34
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 141
+        width: 59
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd6936b8080859980800000000000000
+      internalID: -8532772629400807713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_35
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 78
+        width: 61
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab93999ca5746310800000000000000
+      internalID: 1397371168563108768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_36
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 78
+        width: 61
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dcd38fb08e80b5e0800000000000000
+      internalID: -1895858759502930733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_37
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 76
+        width: 61
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12170b2dfc613c30800000000000000
+      internalID: 4337367750738907678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_38
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 74
+        width: 59
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0bdeb121ad71c970800000000000000
+      internalID: 8773431680103799566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_39
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 72
+        width: 56
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098e000f088b7f9d0800000000000000
+      internalID: -2740518984309741424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_40
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 71
+        width: 53
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7493063dfb182f5f0800000000000000
+      internalID: -724373929168193209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_41
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 70
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da6737caed9a40b10800000000000000
+      internalID: 1946867712771978925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_42
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 5
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ca81ac1a15bc550800000000000000
+      internalID: 6182124668818336921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_43
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 4
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27bd3a9c7b15246a0800000000000000
+      internalID: -6466516265146786958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_44
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 3
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f8a764ea1633a00800000000000000
+      internalID: 735038565326163717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_45
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f93eae65626dd7d0800000000000000
+      internalID: -2892047197913859597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_46
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee2f1f682cc7ed30800000000000000
+      internalID: 4460758429968838381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speedboat_white_0001-sheet_47
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 0
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc849527910eb6c0800000000000000
+      internalID: -4125858459942613809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      speedboat_white_0001-sheet_0: 1326320452386805929
+      speedboat_white_0001-sheet_1: 8566752328265388245
+      speedboat_white_0001-sheet_10: -4710274775219121732
+      speedboat_white_0001-sheet_11: -6334769090685550097
+      speedboat_white_0001-sheet_12: 9169804157452527717
+      speedboat_white_0001-sheet_13: -3279771838020643886
+      speedboat_white_0001-sheet_14: -2549849862441776010
+      speedboat_white_0001-sheet_15: -6732973645022243271
+      speedboat_white_0001-sheet_16: -9153383896436994578
+      speedboat_white_0001-sheet_17: 2050854448775408050
+      speedboat_white_0001-sheet_18: -3023253175813656548
+      speedboat_white_0001-sheet_19: -7177839737706767257
+      speedboat_white_0001-sheet_2: -5641843075373768641
+      speedboat_white_0001-sheet_20: 8965890647838074941
+      speedboat_white_0001-sheet_21: 5719502873768851837
+      speedboat_white_0001-sheet_22: 2737932550791385287
+      speedboat_white_0001-sheet_23: 974275599902859836
+      speedboat_white_0001-sheet_24: 7569022354381089328
+      speedboat_white_0001-sheet_25: -8702334389751376996
+      speedboat_white_0001-sheet_26: 5434803514404357624
+      speedboat_white_0001-sheet_27: 3602324317676998290
+      speedboat_white_0001-sheet_28: 5249317123955589090
+      speedboat_white_0001-sheet_29: 8935509929749737665
+      speedboat_white_0001-sheet_3: -258632085345826341
+      speedboat_white_0001-sheet_30: -5081077083643354254
+      speedboat_white_0001-sheet_31: -1487211591697955642
+      speedboat_white_0001-sheet_32: 5791488827171255803
+      speedboat_white_0001-sheet_33: -7693993152018464019
+      speedboat_white_0001-sheet_34: -8532772629400807713
+      speedboat_white_0001-sheet_35: 1397371168563108768
+      speedboat_white_0001-sheet_36: -1895858759502930733
+      speedboat_white_0001-sheet_37: 4337367750738907678
+      speedboat_white_0001-sheet_38: 8773431680103799566
+      speedboat_white_0001-sheet_39: -2740518984309741424
+      speedboat_white_0001-sheet_4: 2072027092043538897
+      speedboat_white_0001-sheet_40: -724373929168193209
+      speedboat_white_0001-sheet_41: 1946867712771978925
+      speedboat_white_0001-sheet_42: 6182124668818336921
+      speedboat_white_0001-sheet_43: -6466516265146786958
+      speedboat_white_0001-sheet_44: 735038565326163717
+      speedboat_white_0001-sheet_45: -2892047197913859597
+      speedboat_white_0001-sheet_46: 4460758429968838381
+      speedboat_white_0001-sheet_47: -4125858459942613809
+      speedboat_white_0001-sheet_5: -7458767684856170260
+      speedboat_white_0001-sheet_6: -6442420789361197644
+      speedboat_white_0001-sheet_7: -3713646688961882073
+      speedboat_white_0001-sheet_8: 8033622539906151567
+      speedboat_white_0001-sheet_9: -3286669785972146221
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

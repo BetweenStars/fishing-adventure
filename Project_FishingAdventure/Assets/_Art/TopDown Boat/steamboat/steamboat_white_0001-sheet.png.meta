@@ -1,0 +1,1365 @@
+fileFormatVersion: 2
+guid: 20a344ac5f06f46da8906c62e597889a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4335756828212396608
+    second: steamboat_white_0001-sheet_0
+  - first:
+      213: -820531002638674916
+    second: steamboat_white_0001-sheet_1
+  - first:
+      213: -2246914090023628300
+    second: steamboat_white_0001-sheet_2
+  - first:
+      213: 3952190470227485840
+    second: steamboat_white_0001-sheet_3
+  - first:
+      213: 3245234719046328348
+    second: steamboat_white_0001-sheet_4
+  - first:
+      213: -6041052857157442959
+    second: steamboat_white_0001-sheet_5
+  - first:
+      213: -363587165450762510
+    second: steamboat_white_0001-sheet_6
+  - first:
+      213: 828681412939037452
+    second: steamboat_white_0001-sheet_7
+  - first:
+      213: 8332991640195738944
+    second: steamboat_white_0001-sheet_8
+  - first:
+      213: 2112392847532091885
+    second: steamboat_white_0001-sheet_9
+  - first:
+      213: -5098042580414138391
+    second: steamboat_white_0001-sheet_10
+  - first:
+      213: 8242060892580238608
+    second: steamboat_white_0001-sheet_11
+  - first:
+      213: 8064440314205689076
+    second: steamboat_white_0001-sheet_12
+  - first:
+      213: -484849599317791327
+    second: steamboat_white_0001-sheet_13
+  - first:
+      213: -1987805251443249625
+    second: steamboat_white_0001-sheet_14
+  - first:
+      213: 2021329670811757755
+    second: steamboat_white_0001-sheet_15
+  - first:
+      213: 5087765305549262799
+    second: steamboat_white_0001-sheet_16
+  - first:
+      213: 4253709999554529938
+    second: steamboat_white_0001-sheet_17
+  - first:
+      213: 8149059961927015663
+    second: steamboat_white_0001-sheet_18
+  - first:
+      213: -2894191678831026910
+    second: steamboat_white_0001-sheet_19
+  - first:
+      213: 5049726745056770354
+    second: steamboat_white_0001-sheet_20
+  - first:
+      213: 2015109330011211435
+    second: steamboat_white_0001-sheet_21
+  - first:
+      213: 2860029337506432906
+    second: steamboat_white_0001-sheet_22
+  - first:
+      213: 3200659655922933629
+    second: steamboat_white_0001-sheet_23
+  - first:
+      213: 369037036446531190
+    second: steamboat_white_0001-sheet_24
+  - first:
+      213: 6138068995794664532
+    second: steamboat_white_0001-sheet_25
+  - first:
+      213: 4871819600023749484
+    second: steamboat_white_0001-sheet_26
+  - first:
+      213: 843573219038332623
+    second: steamboat_white_0001-sheet_27
+  - first:
+      213: 4058344005319636870
+    second: steamboat_white_0001-sheet_28
+  - first:
+      213: 5859890046170281611
+    second: steamboat_white_0001-sheet_29
+  - first:
+      213: -7691892158964365900
+    second: steamboat_white_0001-sheet_30
+  - first:
+      213: 5678647002516313541
+    second: steamboat_white_0001-sheet_31
+  - first:
+      213: 2888104810040076425
+    second: steamboat_white_0001-sheet_32
+  - first:
+      213: -7120881445062028857
+    second: steamboat_white_0001-sheet_33
+  - first:
+      213: -122777222674700454
+    second: steamboat_white_0001-sheet_34
+  - first:
+      213: 2122428734960411036
+    second: steamboat_white_0001-sheet_35
+  - first:
+      213: 3070203996971232617
+    second: steamboat_white_0001-sheet_36
+  - first:
+      213: -2539748974352902329
+    second: steamboat_white_0001-sheet_37
+  - first:
+      213: -1187285514002075888
+    second: steamboat_white_0001-sheet_38
+  - first:
+      213: 3743753584491742233
+    second: steamboat_white_0001-sheet_39
+  - first:
+      213: 8269152889954505057
+    second: steamboat_white_0001-sheet_40
+  - first:
+      213: -2934004587627271818
+    second: steamboat_white_0001-sheet_41
+  - first:
+      213: 7441599866707580115
+    second: steamboat_white_0001-sheet_42
+  - first:
+      213: -5691363085517873555
+    second: steamboat_white_0001-sheet_43
+  - first:
+      213: -1955423989667501591
+    second: steamboat_white_0001-sheet_44
+  - first:
+      213: -736256181483899064
+    second: steamboat_white_0001-sheet_45
+  - first:
+      213: -1847365541330667815
+    second: steamboat_white_0001-sheet_46
+  - first:
+      213: -192338464331821984
+    second: steamboat_white_0001-sheet_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 794
+        width: 44
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cdfce5f22c44d3c0800000000000000
+      internalID: -4335756828212396608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 794
+        width: 48
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14d6848663ec94f0800000000000000
+      internalID: -820531002638674916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 795
+        width: 55
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1525f2a8b51d0e0800000000000000
+      internalID: -2246914090023628300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 795
+        width: 65
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 094e7960b4009d630800000000000000
+      internalID: 3952190470227485840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 796
+        width: 73
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10658178c3690d20800000000000000
+      internalID: 3245234719046328348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 797
+        width: 82
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 172a5cbee6ed92ca0800000000000000
+      internalID: -6041052857157442959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 799
+        width: 88
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f68a6e366744faf0800000000000000
+      internalID: -363587165450762510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 673
+        width: 93
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b3332ca51108b00800000000000000
+      internalID: 828681412939037452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 675
+        width: 96
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04daa262fbbb4a370800000000000000
+      internalID: 8332991640195738944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 678
+        width: 99
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9e9375a1ab05d10800000000000000
+      internalID: 2112392847532091885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 681
+        width: 101
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e77990a84d1049b0800000000000000
+      internalID: -5098042580414138391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_11
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 682
+        width: 102
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0155267a6bea16270800000000000000
+      internalID: 8242060892580238608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_12
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 679
+        width: 101
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4d1901db5aaef60800000000000000
+      internalID: 8064440314205689076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_13
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 677
+        width: 100
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad2c27bbd77549f0800000000000000
+      internalID: -484849599317791327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 545
+        width: 98
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ea119d7a5e964e0800000000000000
+      internalID: -1987805251443249625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 542
+        width: 95
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc21ba40a43d0c10800000000000000
+      internalID: 2021329670811757755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_16
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 539
+        width: 90
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcf02d9d69f5b9640800000000000000
+      internalID: 5087765305549262799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_17
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 536
+        width: 85
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a89fc15b6380b30800000000000000
+      internalID: 4253709999554529938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_18
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 534
+        width: 78
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec940c1cd6471170800000000000000
+      internalID: 8149059961927015663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_19
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 532
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d926f8004c5d7d0800000000000000
+      internalID: -2894191678831026910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_20
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 530
+        width: 63
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 239f5e358bb341640800000000000000
+      internalID: 5049726745056770354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_21
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 401
+        width: 54
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6c4e6524b17fb10800000000000000
+      internalID: 2015109330011211435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_22
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 400
+        width: 47
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a874445878dd0b720800000000000000
+      internalID: 2860029337506432906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_23
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 400
+        width: 44
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7fd53ecff60b6c20800000000000000
+      internalID: 3200659655922933629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_24
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 400
+        width: 47
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ebb5aba351f1500800000000000000
+      internalID: 369037036446531190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_25
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 401
+        width: 54
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45cfd251b3dce2550800000000000000
+      internalID: 6138068995794664532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_26
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 402
+        width: 63
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63833d3d1e2c9340800000000000000
+      internalID: 4871819600023749484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_27
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 404
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc600de8f59f4bb00800000000000000
+      internalID: 843573219038332623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_28
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 278
+        width: 78
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687b96dee52225830800000000000000
+      internalID: 4058344005319636870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_29
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 280
+        width: 85
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b86b3d033f2825150800000000000000
+      internalID: 5859890046170281611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_30
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 283
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b50156b5d8e04590800000000000000
+      internalID: -7691892158964365900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_31
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 286
+        width: 95
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c552ddac5b9ece40800000000000000
+      internalID: 5678647002516313541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_32
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 289
+        width: 98
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 988298cd50c941820800000000000000
+      internalID: 2888104810040076425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_33
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 293
+        width: 100
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c15863cd0c8d2d90800000000000000
+      internalID: -7120881445062028857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_34
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 295
+        width: 101
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5727f734cecb4ef0800000000000000
+      internalID: -122777222674700454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_35
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 170
+        width: 102
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c91a56870b1647d10800000000000000
+      internalID: 2122428734960411036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_36
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 169
+        width: 101
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d6473c44e8b9a20800000000000000
+      internalID: 3070203996971232617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_37
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 167
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 747580593cff0ccd0800000000000000
+      internalID: -2539748974352902329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_38
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 164
+        width: 98
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f60f29d1ae58fe0800000000000000
+      internalID: -1187285514002075888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_39
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 162
+        width: 96
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 914c932cc0c74f330800000000000000
+      internalID: 3743753584491742233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_40
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 160
+        width: 92
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1611227ddbee1c270800000000000000
+      internalID: 8269152889954505057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_41
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 159
+        width: 87
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6792c116f525847d0800000000000000
+      internalID: -2934004587627271818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_42
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 29
+        width: 82
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d413b7c6afd54760800000000000000
+      internalID: 7441599866707580115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_43
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 28
+        width: 75
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e9fe78d673401b0800000000000000
+      internalID: -5691363085517873555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_44
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 28
+        width: 68
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e9679edd30fcd4e0800000000000000
+      internalID: -1955423989667501591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_45
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 27
+        width: 61
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84777fe57ea48c5f0800000000000000
+      internalID: -736256181483899064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_46
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 27
+        width: 53
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d630b2f3d6dc56e0800000000000000
+      internalID: -1847365541330667815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steamboat_white_0001-sheet_47
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 26
+        width: 46
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c8bdc8f2da45df0800000000000000
+      internalID: -192338464331821984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      steamboat_white_0001-sheet_0: -4335756828212396608
+      steamboat_white_0001-sheet_1: -820531002638674916
+      steamboat_white_0001-sheet_10: -5098042580414138391
+      steamboat_white_0001-sheet_11: 8242060892580238608
+      steamboat_white_0001-sheet_12: 8064440314205689076
+      steamboat_white_0001-sheet_13: -484849599317791327
+      steamboat_white_0001-sheet_14: -1987805251443249625
+      steamboat_white_0001-sheet_15: 2021329670811757755
+      steamboat_white_0001-sheet_16: 5087765305549262799
+      steamboat_white_0001-sheet_17: 4253709999554529938
+      steamboat_white_0001-sheet_18: 8149059961927015663
+      steamboat_white_0001-sheet_19: -2894191678831026910
+      steamboat_white_0001-sheet_2: -2246914090023628300
+      steamboat_white_0001-sheet_20: 5049726745056770354
+      steamboat_white_0001-sheet_21: 2015109330011211435
+      steamboat_white_0001-sheet_22: 2860029337506432906
+      steamboat_white_0001-sheet_23: 3200659655922933629
+      steamboat_white_0001-sheet_24: 369037036446531190
+      steamboat_white_0001-sheet_25: 6138068995794664532
+      steamboat_white_0001-sheet_26: 4871819600023749484
+      steamboat_white_0001-sheet_27: 843573219038332623
+      steamboat_white_0001-sheet_28: 4058344005319636870
+      steamboat_white_0001-sheet_29: 5859890046170281611
+      steamboat_white_0001-sheet_3: 3952190470227485840
+      steamboat_white_0001-sheet_30: -7691892158964365900
+      steamboat_white_0001-sheet_31: 5678647002516313541
+      steamboat_white_0001-sheet_32: 2888104810040076425
+      steamboat_white_0001-sheet_33: -7120881445062028857
+      steamboat_white_0001-sheet_34: -122777222674700454
+      steamboat_white_0001-sheet_35: 2122428734960411036
+      steamboat_white_0001-sheet_36: 3070203996971232617
+      steamboat_white_0001-sheet_37: -2539748974352902329
+      steamboat_white_0001-sheet_38: -1187285514002075888
+      steamboat_white_0001-sheet_39: 3743753584491742233
+      steamboat_white_0001-sheet_4: 3245234719046328348
+      steamboat_white_0001-sheet_40: 8269152889954505057
+      steamboat_white_0001-sheet_41: -2934004587627271818
+      steamboat_white_0001-sheet_42: 7441599866707580115
+      steamboat_white_0001-sheet_43: -5691363085517873555
+      steamboat_white_0001-sheet_44: -1955423989667501591
+      steamboat_white_0001-sheet_45: -736256181483899064
+      steamboat_white_0001-sheet_46: -1847365541330667815
+      steamboat_white_0001-sheet_47: -192338464331821984
+      steamboat_white_0001-sheet_5: -6041052857157442959
+      steamboat_white_0001-sheet_6: -363587165450762510
+      steamboat_white_0001-sheet_7: 828681412939037452
+      steamboat_white_0001-sheet_8: 8332991640195738944
+      steamboat_white_0001-sheet_9: 2112392847532091885
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
