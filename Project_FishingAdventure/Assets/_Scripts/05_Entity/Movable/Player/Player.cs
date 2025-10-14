@@ -26,8 +26,6 @@ public class Player : MovableEntity
 
     public void GetOnShip(Ship ship)
     {
-        playerStateManager.ChangeState(new PlayerRidingState());
-
         playerCollider.enabled = false;
         playerMovement.rb.bodyType = RigidbodyType2D.Kinematic;
         playerMovement.rb.constraints = RigidbodyConstraints2D.FreezePosition | RigidbodyConstraints2D.FreezeRotation;
@@ -39,8 +37,6 @@ public class Player : MovableEntity
     }
     public void GetOffShip()
     {
-        playerStateManager.ChangeState(new PlayerIdleState());
-
         playerMovement.enabled = true;
         playerMovement.rb.bodyType = RigidbodyType2D.Dynamic;
         playerMovement.rb.constraints = RigidbodyConstraints2D.FreezeRotation;

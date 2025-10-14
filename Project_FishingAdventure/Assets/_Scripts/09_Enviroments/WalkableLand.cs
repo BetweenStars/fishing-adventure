@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using UnityEngine.Timeline;
@@ -8,7 +9,6 @@ public class WalkableLand : MonoBehaviour, IInteractable
 
     public void Interact()
     {
-        PlayerManager.player.GetOffShip();
-        WorldManager.ship.DeactivateControl();
+        PlayerManager.player.playerStateManager.ChangeState(new PlayerIdleState());
     }
 }

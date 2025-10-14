@@ -31,7 +31,6 @@ public class Ship : MovableEntity, IInteractable
 
     public virtual void Interact()
     {
-        PlayerManager.player.GetOnShip(this);
-        ActivateControl();
+        PlayerManager.player.playerStateManager.ChangeState(new PlayerRidingState());
     }
 }

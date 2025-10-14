@@ -27,7 +27,6 @@ public class PlayerIdleState : BasePlayerState
 
     private void OnMove(InputAction.CallbackContext context)
     {
-        Debug.Log("move");
         stateManager.ChangeState(new PlayerMovingState());
     }
 }
