@@ -2,10 +2,11 @@ using UnityEngine;
 
 public enum InteractType
 {
-    DOOR,
+    NONE,
     SHIP,
-    NPC,
-    LAND
+    LAND,
+    FISHING,
+    NPC
 }
 
 public interface IInteractable

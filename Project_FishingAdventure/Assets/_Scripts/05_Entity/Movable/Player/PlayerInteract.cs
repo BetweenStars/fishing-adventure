@@ -1,9 +1,12 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerInteract : MonoBehaviour
 {
     private Player player;
+
+    public event Action<InteractType> onInteractableChanged;
 
     [Header("Interact Settings")]
     public float interactDistance = 1.0f;
@@ -24,30 +27,44 @@ public class PlayerInteract : MonoBehaviour
 
     private void FindInteractableOnMousePos()
     {
-        Vector2 mouseScreenPosition = Mouse.current.position.ReadValue();
+        IInteractable lastInteractable = interactable;
 
+        interactable = null;
+
+        Vector2 mouseScreenPosition = Mouse.current.position.ReadValue();
         Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint(mouseScreenPosition);
+
         Vector2 rayOrigin = new Vector2(mouseWorldPosition.x, mouseWorldPosition.y);
 
         Collider2D hit = Physics2D.OverlapPoint(rayOrigin, interactableLayerMask);
+
+        if(Vector2.Distance(mouseWorldPosition, transform.position) > interactDistance)
+        {
+            interactable = null;
+            onInteractableChanged?.Invoke(InteractType.NONE);
+            return;
+        }
 
         if (hit != null)
         {
             var col = hit.GetComponentInParent<IInteractable>();
 
-            if (col != null && Vector2.Distance(mouseWorldPosition, transform.position) <= interactDistance)
+            if (col != null)
             {
                 interactable = GetValidInteractable(col);
             }
-            else
-            {
-                interactable = null;
-            }
         }
-        else
+
+        if (!HasInteractable() && PlayerManager.player.playerStateManager.currentState.state == PlayerState.RIDING)
         {
-            interactable = null;
+            interactable = FishingInteractable.Instance;
         }
+
+        InteractType newType = (interactable != null) 
+                ? interactable.interactType 
+                : InteractType.NONE;
+
+        if (lastInteractable != interactable) { onInteractableChanged?.Invoke(newType); }
     }
 
     private IInteractable GetValidInteractable(IInteractable interactable)
@@ -83,11 +100,7 @@ public class PlayerInteract : MonoBehaviour
 
     private void OnClickInteractable(InputAction.CallbackContext context)
     {
-        if (interactable == null)
-        {
-            if (PlayerManager.player.playerStateManager.currentState.state == PlayerState.RIDING) { PlayerManager.player.playerStateManager.ChangeState(new PlayerFishingState()); }
-            return;
-        }
+        if (interactable == null) return;
 
         Vector2 mouseScreenPosition = Mouse.current.position.ReadValue();
 

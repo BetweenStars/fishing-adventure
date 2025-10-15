@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShipDef_SO
   entityID: 0
   entityName: Boat
-  baseSpeed: 1.2
+  baseSpeed: 5

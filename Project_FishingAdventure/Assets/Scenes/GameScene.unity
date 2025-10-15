@@ -149,8 +149,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TilemapManager
   oceanTilemap: {fileID: 2101984767}
-  landTilemap: {fileID: 1988503348}
-  oceanBoundaryTilemap: {fileID: 1123492000}
+  landTilemap: {fileID: 1123492000}
+  oceanBoundaryTilemap: {fileID: 1988503348}
   landBoundaryTilemap: {fileID: 1045653330}
 --- !u!4 &168037229
 Transform:
@@ -167,7 +167,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &426050036
+--- !u!1 &464507438
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -175,40 +175,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 426050038}
-  - component: {fileID: 426050037}
+  - component: {fileID: 464507440}
+  - component: {fileID: 464507439}
   m_Layer: 0
-  m_Name: InputManager
+  m_Name: Fishing Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &426050037
+--- !u!114 &464507439
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 426050036}
+  m_GameObject: {fileID: 464507438}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 429ac8df78d7d42e5878f0f31e83a02e, type: 3}
+  m_Script: {fileID: 11500000, guid: 228e33c8d36544de0970c052d4f43913, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InputManager
-  _movementAction: {fileID: -7119096550093205905, guid: af4cf525bb38d455dac489f3b989cc4c, type: 3}
-  _interactAction: {fileID: -1036564457108567723, guid: af4cf525bb38d455dac489f3b989cc4c, type: 3}
-  _escapeAction: {fileID: 9165598303278716059, guid: af4cf525bb38d455dac489f3b989cc4c, type: 3}
---- !u!4 &426050038
+  m_EditorClassIdentifier: Assembly-CSharp::FishingManager
+--- !u!4 &464507440
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 426050036}
+  m_GameObject: {fileID: 464507438}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.32397, y: -0.49094, z: 0}
+  m_LocalPosition: {x: -1.98383, y: -2.08643, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -264,6 +261,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83ba1aedb6bcd4a8d9f9e8043212ee4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UI_InteractCursor
+  cursorSprites:
+  - {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 6842023386424041120, guid: 6bc24ae0ef49c4970b71aaf89f704664, type: 3}
+  - {fileID: 41207515351048302, guid: 283a55fab589241bd8db05ceaf7736be, type: 3}
+  - {fileID: 3814286295184664786, guid: 36c88e1a321994d0db4f9ec9e7673102, type: 3}
 --- !u!114 &497824428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -277,7 +279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -378,52 +380,6 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 619394800}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &725894986
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 725894988}
-  - component: {fileID: 725894987}
-  m_Layer: 0
-  m_Name: PlayerManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &725894987
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 725894986}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb327acaacf5548aea6709cf06a03938, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerManager
-  spawnPointTransform: {fileID: 1884313120}
-  playerPrefabAddress: Player_Prefab
---- !u!4 &725894988
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 725894986}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1386,7 +1342,7 @@ TilemapRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 5
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -2295,6 +2251,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1884313120}
+  - component: {fileID: 1884313121}
   m_Layer: 0
   m_Name: Player Spawn Point
   m_TagString: Untagged
@@ -2317,6 +2274,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2073610689}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1884313121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884313119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0025a6c678a5740c084ed5fe98f6d378, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerSpawnPoint
 --- !u!1 &1954646561
 GameObject:
   m_ObjectHideFlags: 0
@@ -2326,6 +2295,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1954646562}
+  - component: {fileID: 1954646563}
   m_Layer: 0
   m_Name: Ship Spawn Point
   m_TagString: Untagged
@@ -2348,6 +2318,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2073610689}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1954646563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954646561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55a253f7dbd1640038289d2b8e07cbba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ShipSpawnPoint
 --- !u!1 &1988503345
 GameObject:
   m_ObjectHideFlags: 0
@@ -3301,7 +3283,7 @@ TilemapRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -11414,9 +11396,8 @@ SceneRoots:
   - {fileID: 2073610689}
   - {fileID: 1114013398}
   - {fileID: 991601587}
-  - {fileID: 725894988}
   - {fileID: 1540944767}
-  - {fileID: 426050038}
   - {fileID: 168037229}
+  - {fileID: 464507440}
   - {fileID: 928554251}
   - {fileID: 820974498}

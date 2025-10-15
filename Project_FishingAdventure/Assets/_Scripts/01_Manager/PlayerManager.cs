@@ -1,11 +1,15 @@
+using System;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
+using UnityEngine.SceneManagement;
 
 public sealed class PlayerManager : MonoBehaviour
 {
     public static PlayerManager Instance { get; private set; }
     public static Player player { get; private set; }
+
+    public static event Action OnPlayerReady;
 
     [SerializeField]
     private Transform spawnPointTransform;
@@ -31,9 +35,16 @@ public sealed class PlayerManager : MonoBehaviour
         }
     }
 
-    private void Start()
+    private void OnEnable() { SceneManager.sceneLoaded += OnSceneLoaded; }
+    private void OnDisable() { SceneManager.sceneLoaded -= OnSceneLoaded; }
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        SpawnPlayer();
+        if (scene.name == "GameScene")
+        {
+            Debug.Log("Game Scene Loaded");
+            spawnPointTransform = FindAnyObjectByType<PlayerSpawnPoint>().transform;
+            SpawnPlayer();
+        }
     }
 
     private void OnDestroy()
@@ -69,6 +80,7 @@ public sealed class PlayerManager : MonoBehaviour
             if (player != null)
             {
                 Debug.Log("[Player Manager] Player Spawn Success");
+                OnPlayerReady?.Invoke();
             }
             else
             {
