@@ -9,6 +9,6 @@ public class WalkableLand : MonoBehaviour, IInteractable
 
     public void Interact()
     {
-        PlayerManager.player.playerStateManager.ChangeState(new PlayerIdleState());
+        PlayerManager.player.playerStateManager.ChangeState(new PlayerOnLandState());
     }
 }

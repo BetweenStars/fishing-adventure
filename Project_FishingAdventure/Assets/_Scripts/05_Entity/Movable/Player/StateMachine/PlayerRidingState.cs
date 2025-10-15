@@ -16,7 +16,6 @@ public class PlayerRidingState : BasePlayerState
     {
         base.ExitState();
 
-        PlayerManager.player.GetOffShip();
         WorldManager.ship.DeactivateControl();
     }
 }

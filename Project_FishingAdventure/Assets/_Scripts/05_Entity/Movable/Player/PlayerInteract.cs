@@ -54,7 +54,7 @@ public class PlayerInteract : MonoBehaviour
     {
         PlayerState currentState = PlayerManager.player.playerStateManager.currentState.state;
 
-        if (currentState == PlayerState.IDLE || currentState == PlayerState.MOVING)
+        if (currentState == PlayerState.ONLAND)
         {
             if (interactable.interactType != InteractType.LAND)
             {
@@ -83,7 +83,11 @@ public class PlayerInteract : MonoBehaviour
 
     private void OnClickInteractable(InputAction.CallbackContext context)
     {
-        if (interactable == null) return;
+        if (interactable == null)
+        {
+            if (PlayerManager.player.playerStateManager.currentState.state == PlayerState.RIDING) { PlayerManager.player.playerStateManager.ChangeState(new PlayerFishingState()); }
+            return;
+        }
 
         Vector2 mouseScreenPosition = Mouse.current.position.ReadValue();
 

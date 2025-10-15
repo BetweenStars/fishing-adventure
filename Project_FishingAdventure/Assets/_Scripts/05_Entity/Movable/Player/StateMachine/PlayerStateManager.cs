@@ -1,7 +1,8 @@
+using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public enum PlayerState { IDLE, MOVING, RIDING, INTERACT, FISHING }
+public enum PlayerState { ONLAND, RIDING, INTERACT, FISHING }
 
 public class PlayerStateManager : MonoBehaviour
 {
@@ -9,9 +10,9 @@ public class PlayerStateManager : MonoBehaviour
     public PlayerState state;
     public bool isRiding { get; private set; } = false;
 
-    private void Awake()
+    private void Start()
     {
-        ChangeState(new PlayerIdleState());
+        ChangeState(new PlayerOnLandState());
     }
 
     private void Update()
@@ -28,5 +29,17 @@ public class PlayerStateManager : MonoBehaviour
         currentState.Initialize(this);
 
         currentState?.EnterState();
+    }
+
+    public Coroutine StartStateCoroutine(IEnumerator coroutine)
+    {
+        return StartCoroutine(coroutine);
+    }
+
+    public void StopStateCoroutine(Coroutine coroutine)
+    {
+        if (coroutine == null) return;
+
+        StopCoroutine(coroutine);
     }
 }
