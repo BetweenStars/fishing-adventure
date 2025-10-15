@@ -196,6 +196,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 228e33c8d36544de0970c052d4f43913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FishingManager
+  basicFishList:
+  - {fileID: 11400000, guid: a8617371ad40a43019b5bff0120800bd, type: 2}
+  - {fileID: 11400000, guid: 773d2419dad834c6eac3c59eb1c03fd4, type: 2}
+  - {fileID: 11400000, guid: 3a8a632f6169b4e67bac90a1d0f6d32e, type: 2}
 --- !u!4 &464507440
 Transform:
   m_ObjectHideFlags: 0

@@ -59,7 +59,6 @@ public class UI_InteractCursor : MonoBehaviour
 
     private void UpdateInteractUISprite(InteractType type)
     {
-        Debug.Log(type);
         cursorImage.sprite = cursorSprites[(int)type];
 
         if (type == InteractType.NONE) { cursorImage.color = ImageUtils.GetTrasparencyColor(cursorImage.color, 0); }

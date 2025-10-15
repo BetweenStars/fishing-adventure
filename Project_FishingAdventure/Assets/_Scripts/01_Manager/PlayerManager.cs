@@ -41,7 +41,6 @@ public sealed class PlayerManager : MonoBehaviour
     {
         if (scene.name == "GameScene")
         {
-            Debug.Log("Game Scene Loaded");
             spawnPointTransform = FindAnyObjectByType<PlayerSpawnPoint>().transform;
             SpawnPlayer();
         }

@@ -38,13 +38,6 @@ public class PlayerInteract : MonoBehaviour
 
         Collider2D hit = Physics2D.OverlapPoint(rayOrigin, interactableLayerMask);
 
-        if(Vector2.Distance(mouseWorldPosition, transform.position) > interactDistance)
-        {
-            interactable = null;
-            onInteractableChanged?.Invoke(InteractType.NONE);
-            return;
-        }
-
         if (hit != null)
         {
             var col = hit.GetComponentInParent<IInteractable>();
@@ -60,8 +53,13 @@ public class PlayerInteract : MonoBehaviour
             interactable = FishingInteractable.Instance;
         }
 
-        InteractType newType = (interactable != null) 
-                ? interactable.interactType 
+        if (Vector2.Distance(mouseWorldPosition, transform.position) > interactDistance)
+        {
+            interactable = null;
+        }
+
+        InteractType newType = (interactable != null)
+                ? interactable.interactType
                 : InteractType.NONE;
 
         if (lastInteractable != interactable) { onInteractableChanged?.Invoke(newType); }
