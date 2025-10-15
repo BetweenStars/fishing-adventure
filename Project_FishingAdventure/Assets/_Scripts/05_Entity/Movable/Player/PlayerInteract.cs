@@ -6,7 +6,7 @@ public class PlayerInteract : MonoBehaviour
 {
     private Player player;
 
-    public event Action<InteractType> onInteractableChanged;
+    public event Action<InteractType> OnInteractableChanged;
 
     [Header("Interact Settings")]
     public float interactDistance = 1.0f;
@@ -62,7 +62,7 @@ public class PlayerInteract : MonoBehaviour
                 ? interactable.interactType
                 : InteractType.NONE;
 
-        if (lastInteractable != interactable) { onInteractableChanged?.Invoke(newType); }
+        if (lastInteractable != interactable) { OnInteractableChanged?.Invoke(newType); }
     }
 
     private IInteractable GetValidInteractable(IInteractable interactable)

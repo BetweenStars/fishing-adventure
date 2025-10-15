@@ -5,6 +5,7 @@ using System.Collections.Generic;
 
 public class UI_InteractCursor : MonoBehaviour
 {
+    private CanvasGroup canvasGroup;
     private Image cursorImage;
     private RectTransform rectTransform;
 
@@ -14,17 +15,20 @@ public class UI_InteractCursor : MonoBehaviour
 
     private void Awake()
     {
+        canvasGroup = GetComponent<CanvasGroup>();
         cursorImage = GetComponent<Image>();
         rectTransform = GetComponent<RectTransform>();
 
-        cursorImage.color = ImageUtils.GetTrasparencyColor(cursorImage.color, 0);
+        canvasGroup.alpha = 0f;
+        canvasGroup.interactable = false;
+        canvasGroup.blocksRaycasts = false;
     }
 
     private void OnEnable()
     {
         PlayerManager.OnPlayerReady += HandlePlayerReady;
 
-        if (PlayerManager.player != null && PlayerManager.player.playerInteract != null)
+        if (PlayerManager.IsPlayerReady)
         {
             HandlePlayerReady();
         }
@@ -35,14 +39,14 @@ public class UI_InteractCursor : MonoBehaviour
 
         if (playerInteract != null)
         {
-            playerInteract.onInteractableChanged -= UpdateInteractUISprite;
+            playerInteract.OnInteractableChanged -= UpdateInteractUISprite;
         }
     }
     private void OnDestroy() { OnDisable(); }
 
     private void Update()
     {
-        if (cursorImage.color.a != 0)
+        if (canvasGroup.alpha != 0f)
         {
             Vector2 mouseScreenPosition = Mouse.current.position.ReadValue();
             rectTransform.position = mouseScreenPosition;
@@ -52,7 +56,7 @@ public class UI_InteractCursor : MonoBehaviour
     private void HandlePlayerReady()
     {
         playerInteract = PlayerManager.player.playerInteract;
-        playerInteract.onInteractableChanged += UpdateInteractUISprite;
+        playerInteract.OnInteractableChanged += UpdateInteractUISprite;
 
         PlayerManager.OnPlayerReady -= HandlePlayerReady;
     }
@@ -61,7 +65,7 @@ public class UI_InteractCursor : MonoBehaviour
     {
         cursorImage.sprite = cursorSprites[(int)type];
 
-        if (type == InteractType.NONE) { cursorImage.color = ImageUtils.GetTrasparencyColor(cursorImage.color, 0); }
-        else { cursorImage.color = ImageUtils.GetTrasparencyColor(cursorImage.color, 1); }
+        if (type == InteractType.NONE) { canvasGroup.alpha = 0f; }
+        else { canvasGroup.alpha = 1f; ; }
     }
 }

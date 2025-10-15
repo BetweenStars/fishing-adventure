@@ -7,7 +7,9 @@ public class Player : MovableEntity
     public PlayerMovement playerMovement { get; private set; }
     public PlayerInteract playerInteract { get; private set; }
     public PlayerStateManager playerStateManager { get; private set; }
-    public PlayerFishInventory playerFishInventory{ get; private set; }
+
+    public PlayerFishInventory playerFishInventory { get; private set; }
+    public PlayerMoney playerMoney{ get; private set; }
 
     public BoxCollider2D playerCollider { get; private set; }
 
@@ -21,7 +23,9 @@ public class Player : MovableEntity
         playerInteract?.Initialize(this);
 
         playerStateManager = GetComponentInChildren<PlayerStateManager>();
+        
         playerFishInventory = new();
+        playerMoney = new();
 
         playerCollider = GetComponent<BoxCollider2D>();
     }

@@ -9,6 +9,7 @@ public class PlayerFishingState : BasePlayerState
     private Coroutine fishingCoroutine = null;
 
     private bool isFishingSuccess = false;
+    private bool isFishing = false;
     private bool isBiting = false;
 
     private FishDef_SO baitedFish;
@@ -19,6 +20,7 @@ public class PlayerFishingState : BasePlayerState
 
         isFishingSuccess = false;
         isBiting = false;
+        isFishing = true;
 
         WorldManager.ship.DeactivateControl();
 
@@ -38,30 +40,43 @@ public class PlayerFishingState : BasePlayerState
 
     private void HandleClicked(InputAction.CallbackContext context)
     {
+        isFishing = false;
         if(isBiting){ isFishingSuccess = true; }
     }
 
     private IEnumerator FishingCoroutine()
     {
         Debug.Log("Waiting for Fish...");
-
         float waitTime = Random.Range(1.5f, 4.0f);
-        yield return new WaitForSeconds(waitTime);
-
-        baitedFish = FishingManager.Instance.BaitedFish();
-
-        Debug.Log("Fish is biting! Click Now!");
-        isBiting = true;
-        float inputTime = 2.0f;
         float deltaTime = 0.0f;
-        while (deltaTime <= inputTime)
+        while (deltaTime <= waitTime)
         {
-            if (isFishingSuccess) break;
+            if (!isFishing) break;
 
             deltaTime += Time.deltaTime;
             yield return null;
         }
-        isBiting = false;
+
+        if (isFishing)
+        {
+
+            baitedFish = FishingManager.Instance.BaitedFish();
+
+            Debug.Log("Fish is biting! Click Now!");
+            isBiting = true;
+            float inputTime = 2.0f;
+            deltaTime = 0.0f;
+            while (deltaTime <= inputTime)
+            {
+                if (!isFishing) break;
+
+                deltaTime += Time.deltaTime;
+                yield return null;
+            }
+            isBiting = false;
+        }
+
+        Debug.Log("fishing end!");
 
         if (!isFishingSuccess)
         {
@@ -72,6 +87,7 @@ public class PlayerFishingState : BasePlayerState
         else
         {
             Debug.Log($"You got {baitedFish.entityName}!");
+            PlayerManager.player.playerMoney.AddMoney(1000);
             FishingManager.Instance.CaughtFish(baitedFish);
             yield return new WaitForSeconds(0.5f);
             stateManager.ChangeState(new PlayerRidingState());

@@ -10,6 +10,7 @@ public sealed class PlayerManager : MonoBehaviour
     public static Player player { get; private set; }
 
     public static event Action OnPlayerReady;
+    public static bool IsPlayerReady { get; private set; } = false;
 
     [SerializeField]
     private Transform spawnPointTransform;
@@ -33,6 +34,8 @@ public sealed class PlayerManager : MonoBehaviour
                 Destroy(gameObject);
             }
         }
+
+        IsPlayerReady = false;
     }
 
     private void OnEnable() { SceneManager.sceneLoaded += OnSceneLoaded; }
@@ -80,6 +83,7 @@ public sealed class PlayerManager : MonoBehaviour
             {
                 Debug.Log("[Player Manager] Player Spawn Success");
                 OnPlayerReady?.Invoke();
+                IsPlayerReady = true;
             }
             else
             {
