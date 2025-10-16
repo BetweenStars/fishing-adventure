@@ -81,7 +81,7 @@ public class PlayerFishingState : BasePlayerState
 
         Debug.Log("fishing end!");
 
-        FishingManager.Instance.RecallBait();
+        yield return FishingManager.Instance.StartCoroutine(FishingManager.Instance.RecallBait());
 
         if (!isFishingSuccess)
         {

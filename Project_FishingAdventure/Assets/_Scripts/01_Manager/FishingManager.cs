@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.Purchasing;
 using UnityEngine;
@@ -10,7 +11,7 @@ public class FishingManager : MonoBehaviour
 
     public PixelLineDrawer pixelLineDrawer { get; private set; }
 
-    public Bait bait{ get; private set; }
+    public Bait bait { get; private set; }
 
     private void Awake()
     {
@@ -53,9 +54,11 @@ public class FishingManager : MonoBehaviour
         pixelLineDrawer.enabled = true;
         pixelLineDrawer.SetStartEndTransforms(PlayerManager.player.rotTipTransform, bait.transform);
     }
-    public void RecallBait()
+
+    public IEnumerator RecallBait()
     {
-        bait.Recall();
+        yield return StartCoroutine(bait.Recall());
+
         pixelLineDrawer.enabled = false;
     }
 }

@@ -229,7 +229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c38819833d8564eddbc991a50cd33506, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PixelLineDrawer
-  quadMaterial: {fileID: 2100000, guid: 3dc6cd6f64635475891b90b84cd78c4b, type: 2}
+  quadMaterial: {fileID: 2100000, guid: 4b14e2fcfed5e40c59874405b2a52649, type: 2}
   startPoint: {fileID: 0}
   endPoint: {fileID: 0}
 --- !u!1 &497824425
@@ -468,6 +468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bait
   entityDef: {fileID: 0}
+  duration: 0.5
   spriteRenderer: {fileID: 0}
 --- !u!212 &719959277
 SpriteRenderer:
