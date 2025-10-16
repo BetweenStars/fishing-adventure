@@ -1,49 +1,71 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class DrawSingleMesh : MonoBehaviour
 {
     public Material quadMaterial; // 인스턴싱 활성화된 재질 (쉐이더 할당)
     private Mesh centerMesh;
-    private Matrix4x4[] instanceMatrix; // 단일 인스턴스를 위한 행렬 배열
+
+    private List<Matrix4x4> matrixList;
+    private Matrix4x4[] matrixBuffer;
+
+    public Transform startPoint;
+    public Transform endPoint;
+
+    public float PPU = 32f;
 
     void OnEnable()
     {
         // 1. 1x1 쿼드 메쉬 생성
-        centerMesh = CreateQuadMesh(1f); // PPU=1f 가정 (월드 유닛 1x1 크기)
+        centerMesh = CreateQuadMesh(PPU); // PPU=1f 가정 (월드 유닛 1x1 크기)
 
-        instanceMatrix = new Matrix4x4[5];
-
-        SetMatrixArray();
+        CalculatePixelsBetweenPoints(startPoint.position, endPoint.position);
     }
 
-    private void SetMatrixArray()
+    private List<Matrix4x4> SetMatrixList(List<Vector3> vectorList)
     {
-        int x = -2;
-        int y = -2;
-        for (int i = 0; i < instanceMatrix.Length; i++)
+        List<Matrix4x4> matrixList = new();
+
+        for(int i = 0; i < vectorList.Count; i++)
         {
-            Vector3 pos = new Vector3(x, y, 0);
+            Matrix4x4 matrix;
+
+            Vector3 pos = vectorList[i];
             Quaternion rot = Quaternion.identity;
             Vector3 scale = Vector3.one;
 
-            instanceMatrix[i] = Matrix4x4.TRS(pos, rot, scale);
-
-            x += 1;
-            y += 1;
+            matrix = Matrix4x4.TRS(pos, rot, scale);
+            matrixList.Add(matrix);
         }
+
+        return matrixList;
     }
 
     void Update()
     {
         if (quadMaterial == null || centerMesh == null) return;
 
+        matrixList = new();
+        matrixList = CalculatePixelsBetweenPoints(startPoint.position, endPoint.position);
+
+        int matrixCount = matrixList.Count;
+
+        if (matrixCount == 0) return;
+
+        if (matrixBuffer == null || matrixBuffer.Length < matrixCount)
+        {
+            matrixBuffer = new Matrix4x4[matrixCount];
+        }
+
+        matrixBuffer = matrixList.ToArray();
+
         // 단일 드로우 콜로 하나의 쿼드를 렌더링
         Graphics.DrawMeshInstanced(
             centerMesh,
             0,
             quadMaterial,
-            instanceMatrix,
-            instanceMatrix.Length
+            matrixBuffer,
+            matrixCount
         );
     }
 
@@ -53,7 +75,7 @@ public class DrawSingleMesh : MonoBehaviour
         Mesh mesh = new Mesh();
         mesh.name = "CenterQuad";
 
-        float halfSize = unitSize * 0.5f;
+        float halfSize = 1f/unitSize * 0.5f;
 
         // 정점: 중심 (0,0,0)을 기준으로 -0.5 ~ +0.5
         Vector3[] vertices = new Vector3[4];
@@ -90,5 +112,25 @@ public class DrawSingleMesh : MonoBehaviour
             Destroy(centerMesh);
             centerMesh = null;
         }
+    }
+
+    private List<Matrix4x4> CalculatePixelsBetweenPoints(Vector3 start, Vector3 end)
+    {
+        start = start * PPU;
+        end = end * PPU;
+
+        int x1 = Mathf.RoundToInt(start.x);
+        int x2 = Mathf.RoundToInt(end.x);
+        int y1 = Mathf.RoundToInt(start.y);
+        int y2 = Mathf.RoundToInt(end.y);
+
+        Vector3 pos1 = new Vector3(x1, y1, 0)/PPU;
+        Vector3 pos2 = new Vector3(x2, y2, 0)/PPU;
+        List<Vector3> list = new();
+        list.Add(pos1);
+        list.Add(pos2);
+
+        //position 다 구하고 마지막에 벡터 리스트 매트릭스 리스트로 변환
+        return SetMatrixList(list);
     }
 }
