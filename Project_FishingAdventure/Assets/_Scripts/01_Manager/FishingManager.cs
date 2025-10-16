@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using UnityEditor.Purchasing;
 using UnityEngine;
 
 public class FishingManager : MonoBehaviour
@@ -7,7 +8,9 @@ public class FishingManager : MonoBehaviour
 
     public List<FishDef_SO> basicFishList;
 
-    [field: SerializeField] public UI_FishingLine fishingLine { get; private set; }
+    public PixelLineDrawer pixelLineDrawer { get; private set; }
+
+    public Bait bait{ get; private set; }
 
     private void Awake()
     {
@@ -25,6 +28,14 @@ public class FishingManager : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        pixelLineDrawer = GetComponentInChildren<PixelLineDrawer>();
+        pixelLineDrawer.enabled = false;
+
+        bait = GetComponentInChildren<Bait>();
+    }
+
     public FishDef_SO BaitedFish()
     {
         return basicFishList[Random.Range(0, basicFishList.Count)];
@@ -33,5 +44,18 @@ public class FishingManager : MonoBehaviour
     {
         FishData newData = new FishData(fishDef, 10, 10);
         PlayerManager.player.playerFishInventory.AddFish(newData);
+    }
+
+    public void ThrowBait()
+    {
+        Vector3 baitPos = PlayerManager.player.playerInteract.interactedPos;
+        bait.Throw(PlayerManager.player.rotTipTransform.position, baitPos);
+        pixelLineDrawer.enabled = true;
+        pixelLineDrawer.SetStartEndTransforms(PlayerManager.player.rotTipTransform, bait.transform);
+    }
+    public void RecallBait()
+    {
+        bait.Recall();
+        pixelLineDrawer.enabled = false;
     }
 }

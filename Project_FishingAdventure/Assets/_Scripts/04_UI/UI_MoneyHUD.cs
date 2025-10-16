@@ -20,7 +20,7 @@ public class UI_MoneyHUD : MonoBehaviour
     {
         PlayerManager.OnPlayerReady -= HandlePlayerReady;
 
-        if (PlayerManager.player.playerMoney != null)
+        if (PlayerManager.player!=null&&PlayerManager.player.playerMoney!=null)
         {
             PlayerManager.player.playerMoney.OnMoneyChanged -= SetText;
         }

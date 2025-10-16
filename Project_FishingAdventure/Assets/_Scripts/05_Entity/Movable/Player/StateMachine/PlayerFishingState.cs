@@ -47,7 +47,9 @@ public class PlayerFishingState : BasePlayerState
     private IEnumerator FishingCoroutine()
     {
         Debug.Log("Waiting for Fish...");
-        FishingManager.Instance.fishingLine.StartLine(PlayerManager.player.rotTipTransform, PlayerManager.player.playerInteract.interactedPos);
+
+        FishingManager.Instance.ThrowBait();
+
         float waitTime = Random.Range(1.5f, 4.0f);
         float deltaTime = 0.0f;
         while (deltaTime <= waitTime)
@@ -79,12 +81,12 @@ public class PlayerFishingState : BasePlayerState
 
         Debug.Log("fishing end!");
 
-        FishingManager.Instance.fishingLine.EndLine();
+        FishingManager.Instance.RecallBait();
 
         if (!isFishingSuccess)
         {
             Debug.Log("Fish ran way...");
-            yield return new WaitForSeconds(1.0f);
+            yield return new WaitForSeconds(0.5f);
             stateManager.ChangeState(new PlayerRidingState());
         }
         else

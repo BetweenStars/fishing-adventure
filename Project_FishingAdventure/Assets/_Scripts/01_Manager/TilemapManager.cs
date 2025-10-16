@@ -28,7 +28,7 @@ public class TilemapManager : MonoBehaviour
 
     private void Start()
     {
-        oceanBoundaryTilemap.color = ImageUtils.GetTrasparencyColor(oceanBoundaryTilemap.color, 0);
-        landBoundaryTilemap.color = ImageUtils.GetTrasparencyColor(landBoundaryTilemap.color, 0);
+        oceanBoundaryTilemap.color = ImageUtils.GetTransparencyColor(oceanBoundaryTilemap.color, 0);
+        landBoundaryTilemap.color = ImageUtils.GetTransparencyColor(landBoundaryTilemap.color, 0);
     }
 }

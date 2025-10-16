@@ -10,8 +10,7 @@ Shader "Custom/PixelArtInstancedLine"
         Tags 
         { 
             "RenderType"="Transparent" 
-            "Queue"="Transparent" 
-            "DisableBatching" = "True" // 인스턴싱을 위해 배치 비활성화는 불필요하지만, 명시적으로 둡니다.
+            "Queue"="Overlay" 
         }
         LOD 100
 
@@ -19,7 +18,8 @@ Shader "Custom/PixelArtInstancedLine"
         {
             // 투명도 처리 설정 (선이 겹치거나 투명할 경우)
             Blend SrcAlpha OneMinusSrcAlpha
-            ZWrite Off // 2D에서 깊이 쓰기를 끄면 렌더링 순서에 유리할 수 있습니다.
+            ZTest Always
+            ZWrite On // 2D에서 깊이 쓰기를 끄면 렌더링 순서에 유리할 수 있습니다.
             
             CGPROGRAM
             #pragma vertex vert
