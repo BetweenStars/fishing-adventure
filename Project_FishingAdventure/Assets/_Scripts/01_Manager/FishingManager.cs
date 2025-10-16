@@ -7,6 +7,8 @@ public class FishingManager : MonoBehaviour
 
     public List<FishDef_SO> basicFishList;
 
+    [field: SerializeField] public UI_FishingLine fishingLine { get; private set; }
+
     private void Awake()
     {
         if (Instance == null)
@@ -25,7 +27,7 @@ public class FishingManager : MonoBehaviour
 
     public FishDef_SO BaitedFish()
     {
-        return basicFishList[Random.Range(0,basicFishList.Count)];
+        return basicFishList[Random.Range(0, basicFishList.Count)];
     }
     public void CaughtFish(FishDef_SO fishDef)
     {

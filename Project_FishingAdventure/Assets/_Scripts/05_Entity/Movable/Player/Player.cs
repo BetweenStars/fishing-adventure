@@ -9,9 +9,11 @@ public class Player : MovableEntity
     public PlayerStateManager playerStateManager { get; private set; }
 
     public PlayerFishInventory playerFishInventory { get; private set; }
-    public PlayerMoney playerMoney{ get; private set; }
+    public PlayerMoney playerMoney { get; private set; }
 
     public BoxCollider2D playerCollider { get; private set; }
+
+    [field: SerializeField] public Transform rotTipTransform { get; private set; }
 
     void Awake()
     {
@@ -23,7 +25,7 @@ public class Player : MovableEntity
         playerInteract?.Initialize(this);
 
         playerStateManager = GetComponentInChildren<PlayerStateManager>();
-        
+
         playerFishInventory = new();
         playerMoney = new();
 
