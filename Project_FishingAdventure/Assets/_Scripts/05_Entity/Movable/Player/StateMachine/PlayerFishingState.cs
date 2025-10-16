@@ -66,6 +66,7 @@ public class PlayerFishingState : BasePlayerState
             baitedFish = FishingManager.Instance.BaitedFish();
 
             Debug.Log("Fish is biting! Click Now!");
+            FishingManager.Instance.bait.SetBobbingSpeed(FishingManager.Instance.bait.fastBobbingSpeed);
             isBiting = true;
             float inputTime = 2.0f;
             deltaTime = 0.0f;

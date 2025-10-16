@@ -50,7 +50,9 @@ public class FishingManager : MonoBehaviour
     public void ThrowBait()
     {
         Vector3 baitPos = PlayerManager.player.playerInteract.interactedPos;
+
         bait.Throw(PlayerManager.player.rotTipTransform.position, baitPos);
+
         pixelLineDrawer.enabled = true;
         pixelLineDrawer.SetStartEndTransforms(PlayerManager.player.rotTipTransform, bait.transform);
     }
