@@ -184,9 +184,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 429ac8df78d7d42e5878f0f31e83a02e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InputManager
-  _movementAction: {fileID: -7119096550093205905, guid: af4cf525bb38d455dac489f3b989cc4c, type: 3}
-  _interactAction: {fileID: -1036564457108567723, guid: af4cf525bb38d455dac489f3b989cc4c, type: 3}
-  _escapeAction: {fileID: 9165598303278716059, guid: af4cf525bb38d455dac489f3b989cc4c, type: 3}
+  <movementAction>k__BackingField: {fileID: -7119096550093205905, guid: af4cf525bb38d455dac489f3b989cc4c, type: 3}
+  <interactAction>k__BackingField: {fileID: -1036564457108567723, guid: af4cf525bb38d455dac489f3b989cc4c, type: 3}
+  <escapeAction>k__BackingField: {fileID: 9165598303278716059, guid: af4cf525bb38d455dac489f3b989cc4c, type: 3}
+  <inventoryAction>k__BackingField: {fileID: -5358667251300309430, guid: af4cf525bb38d455dac489f3b989cc4c, type: 3}
 --- !u!4 &192509438
 Transform:
   m_ObjectHideFlags: 0

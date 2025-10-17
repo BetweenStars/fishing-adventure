@@ -12,7 +12,7 @@ public class PlayerFishingState : BasePlayerState
     private bool isFishing = false;
     private bool isBiting = false;
 
-    private FishDef_SO baitedFish;
+    private FishData baitedFish;
 
     public override void EnterState()
     {
@@ -92,7 +92,7 @@ public class PlayerFishingState : BasePlayerState
         }
         else
         {
-            Debug.Log($"You got {baitedFish.entityName}!");
+            Debug.Log($"You got {baitedFish.size:F2}cm {baitedFish.fishDef.entityName}!");
             PlayerManager.player.playerMoney.AddMoney(1000);
             FishingManager.Instance.CaughtFish(baitedFish);
             yield return new WaitForSeconds(0.5f);

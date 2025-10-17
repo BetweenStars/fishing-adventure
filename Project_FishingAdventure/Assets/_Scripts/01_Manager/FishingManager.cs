@@ -37,14 +37,18 @@ public class FishingManager : MonoBehaviour
         bait = GetComponentInChildren<Bait>();
     }
 
-    public FishDef_SO BaitedFish()
+    public FishData BaitedFish()
     {
-        return basicFishList[Random.Range(0, basicFishList.Count)];
+        FishDef_SO fishDef = basicFishList[Random.Range(0, basicFishList.Count)];
+        float size = fishDef.baseSize * Random.Range(1.0f,1.25f);
+        float price = fishDef.basePrice* Random.Range(1.0f,1.25f);
+        FishData fishData = new FishData(fishDef, size, price);
+
+        return fishData;
     }
-    public void CaughtFish(FishDef_SO fishDef)
+    public void CaughtFish(FishData fishData)
     {
-        FishData newData = new FishData(fishDef, 10, 10);
-        PlayerManager.player.playerFishInventory.AddFish(newData);
+        PlayerManager.player.playerFishInventory.AddFish(fishData);
     }
 
     public void ThrowBait()
