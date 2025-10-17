@@ -5,15 +5,10 @@ public class InputManager : MonoBehaviour
 {
     public static InputManager Instance;
 
-    [SerializeField]
-    private InputActionReference _movementAction;
-    public InputActionReference movementAction => _movementAction;
-    [SerializeField]
-    private InputActionReference _interactAction;
-    public InputActionReference interactAction => _interactAction;
-    [SerializeField]
-    InputActionReference _escapeAction;
-    public InputActionReference escapeAction => _escapeAction;
+    [field: SerializeField] public InputActionReference movementAction { get; private set; }
+    [field: SerializeField] public InputActionReference interactAction { get; private set; }
+    [field: SerializeField] public InputActionReference escapeAction { get; private set; }
+    [field: SerializeField] public InputActionReference inventoryAction { get; private set; }
 
     private void Awake()
     {
@@ -36,5 +31,6 @@ public class InputManager : MonoBehaviour
         movementAction.action.Enable();
         interactAction.action.Enable();
         escapeAction.action.Enable();
+        inventoryAction.action.Enable();
     }
 }

@@ -92,11 +92,11 @@ public class PlayerInteract : MonoBehaviour
         this.player = player;
     }
 
-    private void OnEnable() { InputManager.Instance.interactAction.action.started += OnClickInteractable; }
-    private void OnDisable() { InputManager.Instance.interactAction.action.started -= OnClickInteractable; }
-    private void OnDestroy() { InputManager.Instance.interactAction.action.started -= OnClickInteractable; }
+    private void OnEnable() { InputManager.Instance.interactAction.action.started += HandleInteractInputAction; }
+    private void OnDisable() { InputManager.Instance.interactAction.action.started -= HandleInteractInputAction; }
+    private void OnDestroy() { InputManager.Instance.interactAction.action.started -= HandleInteractInputAction; }
 
-    private void OnClickInteractable(InputAction.CallbackContext context)
+    private void HandleInteractInputAction(InputAction.CallbackContext context)
     {
         if (interactable == null) return;
 
