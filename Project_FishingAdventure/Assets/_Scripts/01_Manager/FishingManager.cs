@@ -39,13 +39,14 @@ public class FishingManager : MonoBehaviour
 
     public FishData BaitedFish()
     {
-        FishDef_SO fishDef = basicFishList[Random.Range(0, basicFishList.Count)];
-        float size = fishDef.baseSize * Random.Range(1.0f,1.25f);
-        float price = fishDef.basePrice* Random.Range(1.0f,1.25f);
-        FishData fishData = new FishData(fishDef, size, price);
+        FishDef_SO fishDef = FishDataBase.Instance.GetRandomFishDef();
+        float size = fishDef.baseSize * Random.Range(1.0f, 1.25f);
+        float price = fishDef.basePrice * Random.Range(1.0f, 1.25f);
+        FishData fishData = new FishData(fishDef.entityID, size, price);
 
         return fishData;
     }
+    
     public void CaughtFish(FishData fishData)
     {
         PlayerManager.player.playerFishInventory.AddFish(fishData);
@@ -55,10 +56,10 @@ public class FishingManager : MonoBehaviour
     {
         Vector3 baitPos = PlayerManager.player.playerInteract.interactedPos;
 
-        bait.Throw(PlayerManager.player.rotTipTransform.position, baitPos);
+        bait.Throw(PlayerManager.player.rodTipTransform.position, baitPos);
 
         pixelLineDrawer.enabled = true;
-        pixelLineDrawer.SetStartEndTransforms(PlayerManager.player.rotTipTransform, bait.transform);
+        pixelLineDrawer.SetStartEndTransforms(PlayerManager.player.rodTipTransform, bait.transform);
     }
 
     public IEnumerator RecallBait()

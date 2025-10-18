@@ -10,10 +10,11 @@ public class Player : MovableEntity
 
     public PlayerFishInventory playerFishInventory { get; private set; }
     public PlayerMoney playerMoney { get; private set; }
+    public PlayerInventory playerInventory{ get; private set; }
 
     public BoxCollider2D playerCollider { get; private set; }
 
-    [field: SerializeField] public Transform rotTipTransform { get; private set; }
+    [field: SerializeField] public Transform rodTipTransform { get; private set; }
 
     void Awake()
     {
@@ -27,7 +28,8 @@ public class Player : MovableEntity
         playerStateManager = GetComponentInChildren<PlayerStateManager>();
 
         playerFishInventory = new();
-        playerMoney = new();
+        playerMoney = new(SaveLoadManager.Instance.gameSaveData.money);
+        playerInventory = new();
 
         playerCollider = GetComponent<BoxCollider2D>();
     }

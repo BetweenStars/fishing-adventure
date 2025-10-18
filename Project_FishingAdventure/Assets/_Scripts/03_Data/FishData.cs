@@ -4,13 +4,13 @@ using UnityEngine;
 [Serializable]
 public class FishData
 {
-    public FishDef_SO fishDef;
+    public int fishID;
     public float size;
     public float price;
 
-    public FishData(FishDef_SO fishDef, float size, float price)
+    public FishData(int fishID, float size, float price)
     {
-        this.fishDef = fishDef;
+        this.fishID = fishID;
         this.size = size;
         this.price = price;
     }

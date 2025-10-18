@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d622d874d9b14f9bbf55ed059e28ea5, type: 3}
   m_Name: Halibut
   m_EditorClassIdentifier: Assembly-CSharp::FishDef_SO
-  entityID: 0
+  _entityID: 302
   entityName: Halibut
   sprite: {fileID: -3637470110828976721, guid: 36c88e1a321994d0db4f9ec9e7673102, type: 3}
+  rarity: 0
+  baseSize: 30
+  basePrice: 1000
   weight: 0

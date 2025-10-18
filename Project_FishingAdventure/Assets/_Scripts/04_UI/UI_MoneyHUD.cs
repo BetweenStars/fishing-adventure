@@ -20,7 +20,7 @@ public class UI_MoneyHUD : MonoBehaviour
     {
         PlayerManager.OnPlayerReady -= HandlePlayerReady;
 
-        if (PlayerManager.player!=null&&PlayerManager.player.playerMoney!=null)
+        if (PlayerManager.player != null && PlayerManager.player.playerMoney != null)
         {
             PlayerManager.player.playerMoney.OnMoneyChanged -= SetText;
         }
@@ -30,6 +30,6 @@ public class UI_MoneyHUD : MonoBehaviour
         OnDisable();
     }
 
-    private void HandlePlayerReady() { PlayerManager.player.playerMoney.OnMoneyChanged += SetText; }
-    private void SetText(double money) { text.text = money.ToString(); }
+    private void HandlePlayerReady() { PlayerManager.player.playerMoney.OnMoneyChanged += SetText; SetText(PlayerManager.player.playerMoney.money); }
+    private void SetText(double money) { text.text = money.ToString("F2") + "$"; }
 }

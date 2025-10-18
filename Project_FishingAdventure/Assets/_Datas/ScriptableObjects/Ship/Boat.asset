@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09f566faa3b0c41008e66f2b3c5597b8, type: 3}
   m_Name: Boat
   m_EditorClassIdentifier: Assembly-CSharp::ShipDef_SO
-  entityID: 0
+  _entityID: 1
   entityName: Boat
   baseSpeed: 5

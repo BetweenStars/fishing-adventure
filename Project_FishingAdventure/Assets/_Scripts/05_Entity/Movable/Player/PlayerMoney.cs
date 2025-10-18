@@ -7,7 +7,7 @@ public class PlayerMoney
     public event Action<double> OnMoneyChanged;
     public double money { get; private set; } = 0;
 
-    public PlayerMoney(){ money = 0; }
+    public PlayerMoney(double money){ this.money = money; }
 
     public void AddMoney(double value)
     {

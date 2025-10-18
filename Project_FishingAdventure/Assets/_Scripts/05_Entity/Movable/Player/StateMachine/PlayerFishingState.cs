@@ -92,8 +92,7 @@ public class PlayerFishingState : BasePlayerState
         }
         else
         {
-            Debug.Log($"You got {baitedFish.size:F2}cm {baitedFish.fishDef.entityName}!");
-            PlayerManager.player.playerMoney.AddMoney(1000);
+            Debug.Log($"You got {baitedFish.size:F2}cm {FishDataBase.Instance.GetFishDefByID(baitedFish.fishID).entityName}!");
             FishingManager.Instance.CaughtFish(baitedFish);
             yield return new WaitForSeconds(0.5f);
             stateManager.ChangeState(new PlayerRidingState());

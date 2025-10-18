@@ -100,7 +100,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8303669001975251299}
   m_Layer: 6
-  m_Name: Rot Tip Transform
+  m_Name: Rod Tip Transform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -246,7 +246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
   entityDef: {fileID: 11400000, guid: 93b82fa0b3073434da4bdad7c5b0f51d, type: 2}
-  <rotTipTransform>k__BackingField: {fileID: 8303669001975251299}
+  <rodTipTransform>k__BackingField: {fileID: 8303669001975251299}
 --- !u!114 &-549598696404132340
 MonoBehaviour:
   m_ObjectHideFlags: 0

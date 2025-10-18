@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56a276806d9fc443cbad9145ef1a3b49, type: 3}
   m_Name: BasePlayer
   m_EditorClassIdentifier: Assembly-CSharp::Player_SO
-  entityID: 0
+  _entityID: 0
   entityName: Player
   baseSpeed: 3

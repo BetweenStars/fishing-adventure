@@ -94,7 +94,7 @@ public class Bait : StaticEntity
         if (moveCoroutine != null) { StopCoroutine(moveCoroutine); moveCoroutine = null; }
         if (bobbingCoroutine != null) { StopCoroutine(bobbingCoroutine); bobbingCoroutine = null; }
 
-        yield return StartCoroutine(MoveCoroutine(PlayerManager.player.rotTipTransform.position, throwDuration));
+        yield return StartCoroutine(MoveCoroutine(PlayerManager.player.rodTipTransform.position, throwDuration));
 
         Hide();
     }

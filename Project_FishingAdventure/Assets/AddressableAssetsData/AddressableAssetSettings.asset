@@ -60,6 +60,8 @@ MonoBehaviour:
   m_BuildAddressablesWithPlayerBuild: 0
   m_overridePlayerVersion: '[UnityEditor.PlayerSettings.bundleVersion]'
   m_GroupAssets:
+  - {fileID: 11400000, guid: f0d9f388f79cc42cfb21faebf8699f2f, type: 2}
+  - {fileID: 11400000, guid: c049560e66dc6426d93546f1576145c0, type: 2}
   - {fileID: 11400000, guid: a6a83f8c3b12441a49a0ff2a741ade21, type: 2}
   m_BuildSettings:
     m_LogResourceManagerExceptions: 1
@@ -100,6 +102,8 @@ MonoBehaviour:
   m_LabelTable:
     m_LabelNames:
     - default
+    - FishDef
+    - ShipDef
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 2d2d9a6aa09594e42889b7b951bb020b, type: 2}

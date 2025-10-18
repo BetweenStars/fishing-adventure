@@ -5,9 +5,10 @@ public enum FishRarity
     COMMON,RARE,EPIC,UNIQUE,MYTH
 }
 
-[CreateAssetMenu(fileName = "NewFish", menuName = "ScriptableObject/Entity/Movable/FishSO")]
+[CreateAssetMenu(fileName = "NewFish", menuName = "ScriptableObject/Entity/Static/FishSO")]
 public class FishDef_SO : StaticEntityDef_SO
 {
+    public override EntityType entityType => EntityType.FISH;
     public Sprite sprite;
 
     public FishRarity rarity;

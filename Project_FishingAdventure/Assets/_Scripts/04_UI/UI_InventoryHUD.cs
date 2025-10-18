@@ -31,7 +31,7 @@ public class UI_InventoryHUD : UI_BaseCanvasGroup
         {
             if (i < fishDatas.Count)
             {
-                itemSlots[i].SetItemImage(fishDatas[i].fishDef.sprite);
+                itemSlots[i].SetItemImage(FishDataBase.Instance.GetFishDefByID(fishDatas[i].fishID).sprite);
             }
             else
             {
