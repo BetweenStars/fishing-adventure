@@ -5,7 +5,8 @@ using UnityEngine.Tilemaps;
 public class ChunkManager : MonoBehaviour
 {
     private Dictionary<Vector2Int, ChunkData> allWorldChunks = new();
-    public MapGenerator mapGenerator=new();
+    public MapGenerator mapGenerator = new();
+    [SerializeField] private RuleTile LandRuleTile;
 
     private void Awake()
     {
@@ -72,29 +73,23 @@ public class ChunkManager : MonoBehaviour
     public Tile LandTundraTile; // ID 5
     public Tile LandJungleTile; // ID 6
 
-    // 타일 ID를 Tile Asset으로 변환하는 Dictionary (런타임용)
     private Dictionary<byte, Tile> tilePalette;
 
     public void DrawAllChunks()
     {
-        // 모든 청크가 Dictionary에 초기화되었다고 가정합니다.
-
         foreach (var kvp in allWorldChunks)
         {
             Vector2Int chunkCoord = kvp.Key;
             ChunkData chunk = kvp.Value;
 
-            // 이 청크의 모든 타일 정보와 위치를 저장할 임시 리스트
             List<Vector3Int> seaPositions = new List<Vector3Int>();
             List<Tile> seaTiles = new List<Tile>();
             List<Vector3Int> landPositions = new List<Vector3Int>();
             List<Tile> landTiles = new List<Tile>();
 
-            // 청크의 월드 좌표 시작점
             int startWorldX = chunkCoord.x * MapConstants.TilePerChunk;
             int startWorldY = chunkCoord.y * MapConstants.TilePerChunk;
 
-            // 1. 청크 내부 순회 및 데이터 분류
             for (int localY = 0; localY < MapConstants.TilePerChunk; localY++)
             {
                 for (int localX = 0; localX < MapConstants.TilePerChunk; localX++)
@@ -102,18 +97,16 @@ public class ChunkManager : MonoBehaviour
                     int arrayIndex = localY * MapConstants.TilePerChunk + localX;
                     byte tileId = chunk.tileIDs[arrayIndex];
 
-                    // 월드 좌표 계산
                     Vector3Int tilePos = new Vector3Int(startWorldX + localX, startWorldY + localY, 0);
 
                     if (tilePalette.TryGetValue(tileId, out Tile tileAsset))
                     {
-                        // 2. 바다/육지 Tilemap에 따라 타일 정보를 분리
-                        if (tileId <= MapConstants.TILE_SEA_DEEP) // 0, 1, 2는 바다
+                        if (tileId <= MapConstants.TILE_SEA_DEEP)
                         {
                             seaPositions.Add(tilePos);
                             seaTiles.Add(tileAsset);
                         }
-                        else // 3 이상은 육지
+                        else
                         {
                             landPositions.Add(tilePos);
                             landTiles.Add(tileAsset);
@@ -122,8 +115,6 @@ public class ChunkManager : MonoBehaviour
                 }
             }
 
-            // 3. Tilemap에 일괄 배치 (SetTiles 사용!)
-            // Tilemap은 GameObject에 연결되어 있어야 합니다.
             if (seaPositions.Count > 0)
             {
                 TilemapManager.Instance.oceanTilemap.SetTiles(seaPositions.ToArray(), seaTiles.ToArray());
@@ -134,10 +125,8 @@ public class ChunkManager : MonoBehaviour
             }
         }
 
-        // 육지 Tilemap에 Collider가 붙어 있다면 수동으로 업데이트
         if (TilemapManager.Instance.landTilemap.GetComponent<TilemapCollider2D>() != null)
         {
-            // 400개 청크를 한 번에 그렸으므로, 콜라이더도 한 번에 업데이트합니다.
             TilemapManager.Instance.landTilemap.GetComponent<TilemapCollider2D>().ProcessTilemapChanges();
         }
 
