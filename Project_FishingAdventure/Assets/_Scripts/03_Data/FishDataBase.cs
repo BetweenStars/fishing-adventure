@@ -30,11 +30,9 @@ public class FishDataBase : MonoBehaviour
 
     public void OnDestroy()
     {
-        // Addressables로 로드한 에셋은 반드시 Release를 통해 메모리를 해제해야 합니다.
         if (loadHandle.IsValid())
         {
             Addressables.Release(loadHandle);
-            Debug.Log("FishDef_SO Addressable 핸들 메모리 해제됨.");
         }
     }
 
@@ -42,7 +40,7 @@ public class FishDataBase : MonoBehaviour
     {
         if (fishDefs.Count == 0)
         {
-            Debug.LogWarning("[FishDataBase] 물고기 데이터가 로드되지 않았습니다.");
+            Debug.LogWarning("[FishDataBase] FishDef data not loaded.");
             return null;
         }
 

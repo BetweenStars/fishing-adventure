@@ -21,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (InputManager.Instance.movementAction == null)
         {
-            Debug.LogError("Movement Action Reference is null...");
+            Debug.LogError("[Player Movement] Movement Action Reference is null...");
             return;
         }
 

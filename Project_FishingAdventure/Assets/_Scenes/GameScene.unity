@@ -3925,7 +3925,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8.4375
+  orthographic size: 5.625
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -3984,8 +3984,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.RenderPipelines.Universal.2D.Runtime::UnityEngine.Rendering.Universal.PixelPerfectCamera
   m_ComponentVersion: 1
   m_AssetsPPU: 16
-  m_RefResolutionX: 480
-  m_RefResolutionY: 270
+  m_RefResolutionX: 270
+  m_RefResolutionY: 180
   m_CropFrame: 0
   m_GridSnapping: 0
   m_FilterMode: 0
@@ -4995,6 +4995,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82c5ee56d987b4824a30d180b0f2b6bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChunkManager
+  LandRuleTile: {fileID: 11400000, guid: 869d68a7ca6134fbbaa6e2e03cbd1c66, type: 2}
   SeaShallowTile: {fileID: 11400000, guid: 4867ff4eae909449bba90f46e246c34d, type: 2}
   SeaMidTile: {fileID: 11400000, guid: b26e12f895c9448669166dad51f771ac, type: 2}
   SeaDeepTile: {fileID: 11400000, guid: 4c64d6b93cde040f9b8d6f18131a662e, type: 2}

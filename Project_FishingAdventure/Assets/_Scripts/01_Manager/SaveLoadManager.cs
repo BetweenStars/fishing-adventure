@@ -42,11 +42,11 @@ public class SaveLoadManager : MonoBehaviour
         try
         {
             File.WriteAllText(filePath, json);
-            Debug.Log($"[SaveLoadManager] 게임 저장 완료: {filePath}");
+            Debug.Log($"[SaveLoadManager] File save completed : {filePath}");
         }
         catch (System.Exception e)
         {
-            Debug.LogError($"[SaveLoadManager] 파일 저장 실패: {e.Message}");
+            Debug.LogError($"[SaveLoadManager] File save failed : {e.Message}");
         }
     }
 
@@ -56,7 +56,7 @@ public class SaveLoadManager : MonoBehaviour
 
         if (!File.Exists(filePath))
         {
-            Debug.LogWarning("[SaveLoadManager] 저장 파일이 존재하지 않아 로드하지 않습니다.");
+            Debug.LogWarning("[SaveLoadManager] Can't find save File.");
         }
 
         try
@@ -65,12 +65,11 @@ public class SaveLoadManager : MonoBehaviour
 
             GameSaveData data = JsonUtility.FromJson<GameSaveData>(json);
 
-            Debug.Log($"[SaveLoadManager] 게임 로드 완료. 돈: {data.money}");
             gameSaveData = data;
         }
         catch (System.Exception e)
         {
-            Debug.LogError($"[SaveLoadManager] 파일 로드 실패: {e.Message}");
+            Debug.LogError($"[SaveLoadManager] File load failed : {e.Message}");
         }
     }
 

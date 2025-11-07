@@ -19,7 +19,7 @@ public class ShipMovement : MonoBehaviour
     {
         if (InputManager.Instance.movementAction == null)
         {
-            Debug.LogError("Movement Action Reference is null...");
+            Debug.LogError("[Ship Movement] Movement Action Reference is null...");
             return;
         }
 

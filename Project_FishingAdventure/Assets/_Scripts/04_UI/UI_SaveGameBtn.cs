@@ -14,7 +14,6 @@ public class UI_SaveGameBtn : MonoBehaviour
         if (SaveLoadManager.Instance != null)
         {
             btn.onClick.AddListener(SaveLoadManager.Instance.SaveGame);
-            Debug.Log("save event sub");
         }
     }
 }
