@@ -1,6 +1,4 @@
-using System.Net.Http.Headers;
 using UnityEngine;
-using UnityEngine.ResourceManagement.ResourceProviders.Simulation;
 
 public class Ship : MovableEntity, IInteractable
 {

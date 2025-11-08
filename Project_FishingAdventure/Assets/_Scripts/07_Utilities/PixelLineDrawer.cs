@@ -4,7 +4,7 @@ using UnityEngine.Rendering;
 
 public class PixelLineDrawer : MonoBehaviour
 {
-    public Material quadMaterial; // 인스턴싱 활성화된 재질 (쉐이더 할당)
+    public Material quadMaterial;
     private Mesh centerMesh;
 
     private List<Matrix4x4> matrixList;
@@ -15,14 +15,12 @@ public class PixelLineDrawer : MonoBehaviour
 
     void OnEnable()
     {
-        // 1. 1x1 쿼드 메쉬 생성
-        centerMesh = CreateQuadMesh(ResolutionConstants.PPU); // PPU=1f 가정 (월드 유닛 1x1 크기)
+        centerMesh = CreateQuadMesh(ResolutionConstants.PPU);
 
         matrixList = new();
     }
     void OnDisable()
     {
-        // 런타임에 생성된 메쉬를 정리 (에셋 누수 방지)
         if (centerMesh != null)
         {
             Destroy(centerMesh);
@@ -46,15 +44,6 @@ public class PixelLineDrawer : MonoBehaviour
 
         matrixList.CopyTo(matrixBuffer, 0);
 
-        /*
-                Graphics.DrawMeshInstanced(
-                    centerMesh,
-                    0,
-                    quadMaterial,
-                    matrixBuffer,
-                    matrixCount
-                );
-                */
         var renderParams = new RenderParams(quadMaterial){};
         renderParams.renderingLayerMask = 3;
         renderParams.camera = Camera.main;
@@ -76,17 +65,14 @@ public class PixelLineDrawer : MonoBehaviour
 
         float halfSize = 1f / unitSize * 0.5f;
 
-        // 정점: 중심 (0,0,0)을 기준으로 -0.5 ~ +0.5
         Vector3[] vertices = new Vector3[4];
         vertices[0] = new Vector3(-halfSize, -halfSize, 0); // 좌하
         vertices[1] = new Vector3(-halfSize, halfSize, 0);  // 좌상
         vertices[2] = new Vector3(halfSize, halfSize, 0);   // 우상
         vertices[3] = new Vector3(halfSize, -halfSize, 0);  // 우하
 
-        // 삼각형 (Triangles)
         int[] triangles = new int[] { 0, 1, 2, 0, 2, 3 };
 
-        // UV 좌표 (UVs)
         Vector2[] uv = new Vector2[4];
         uv[0] = new Vector2(0, 0);
         uv[1] = new Vector2(0, 1);

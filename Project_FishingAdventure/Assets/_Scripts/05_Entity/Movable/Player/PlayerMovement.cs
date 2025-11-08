@@ -15,6 +15,12 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         rb.linearVelocity = currentInputVector * currentSpeed;
+
+        if (rb.linearVelocity.magnitude != 0) { player.playerAnimationController.animator.SetBool("IsWalking", true); }
+        else { player.playerAnimationController.animator.SetBool("IsWalking", false); }
+
+        player.playerAnimationController.animator.SetFloat("xDir", rb.linearVelocityX);
+        player.playerAnimationController.animator.SetFloat("yDir", rb.linearVelocityY);
     }
 
     private void SetInputActions()

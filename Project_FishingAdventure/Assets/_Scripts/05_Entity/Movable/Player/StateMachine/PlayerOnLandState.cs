@@ -10,4 +10,11 @@ public class PlayerOnLandState : BasePlayerState
 
         PlayerManager.player.GetOffShip();
     }
+
+    public override void ExitState()
+    {
+        base.ExitState();
+
+        PlayerManager.player.playerAnimationController.animator.SetBool("IsWalking", false);
+    }
 }

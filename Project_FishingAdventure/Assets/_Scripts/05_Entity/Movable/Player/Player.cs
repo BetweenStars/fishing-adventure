@@ -7,6 +7,7 @@ public class Player : MovableEntity
     public PlayerMovement playerMovement { get; private set; }
     public PlayerInteract playerInteract { get; private set; }
     public PlayerStateManager playerStateManager { get; private set; }
+    public PlayerAnimationController playerAnimationController{ get; private set; }
 
     public PlayerFishInventory playerFishInventory { get; private set; }
     public PlayerMoney playerMoney { get; private set; }
@@ -24,6 +25,8 @@ public class Player : MovableEntity
 
         playerInteract = GetComponentInChildren<PlayerInteract>();
         playerInteract?.Initialize(this);
+
+        playerAnimationController = GetComponentInChildren<PlayerAnimationController>();
 
         playerStateManager = GetComponentInChildren<PlayerStateManager>();
 

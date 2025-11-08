@@ -6,5 +6,7 @@ public class NPC : MovableEntity,IInteractable
 
     public InteractType interactType => InteractType.NPC;
 
-    public virtual void Interact(){}
+    public virtual void Interact() { }
+    
+    public virtual void PrintDialog(){}
 }
